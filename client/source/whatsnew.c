@@ -11,10 +11,9 @@
 // Novità di questa versione: testi in italiano esatto dentro N_(), tradotti
 // quando si disegnano (i18n/*.json).
 static const char *const ITEMS[] = {
+  N_("Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9)."),
   N_("Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation."),
   N_("Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire."),
-  N_("Nuovo: la home la ordini tu. Dalle opzioni di un gioco, di una cartella o di un'app scegli Cambia posizione e la porti dove vuoi con le frecce (L2 e R2 la mandano in testa o in fondo): le altre tessere le fanno posto. L'ordine resta anche dopo il riavvio."),
-  N_("Anche Community, Store, Browser, Installa PKG, Aggiornamenti e App mobile si possono spostare o nascondere; le rimetti in Impostazioni \xE2\x80\xBA Home e giochi \xE2\x80\xBA App nascoste, e da Ordine della home torni all'ordine automatico."),
 };
 #define NITEMS (int)(sizeof ITEMS / sizeof *ITEMS)
 

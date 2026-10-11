@@ -203,7 +203,6 @@
   "Amico aggiunto": "Vän tillagd",
   "Amico rimosso": "Vän borttagen",
   "Analisi": "Kontrollerar",
-  "Anche Community, Store, Browser, Installa PKG, Aggiornamenti e App mobile si possono spostare o nascondere; le rimetti in Impostazioni › Home e giochi › App nascoste, e da Ordine della home torni all'ordine automatico.": "Även Community, Store, Webbläsare, Installera PKG, Uppdateringar och Mobilapp kan flyttas eller döljas; du tar tillbaka dem i Inställningar › Startsida och spel › Dolda appar, och med Startsidans ordning går du tillbaka till automatisk ordning.",
   "Anche a console spenta: la web app parla con il server di Omega, come la dash.": "Även när konsolen är avstängd: webbappen pratar med Omegas server, precis som dashboarden.",
   "Anche le sottocartelle, in ordine": "Även undermappar, i ordning",
   "Anche senza JSON": "Även utan JSON",
@@ -629,6 +628,7 @@
   "Gioco aggiunto alla libreria": "Spelet har lagts till i biblioteket",
   "Gioco cancellato dal disco": "Spelet raderades från disken",
   "Gli homebrew non hanno salvataggi di sistema": "Homebrew har inga systemsparade data",
+  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "App-zippar där appmappen ligger i en annan mapp installeras nu rätt, och appens filer får de behörigheter som behövs för att starta.",
   "Grandi": "Stora",
   "Gratis, aperta e nella tua lingua": "Gratis, öppen och på svenska",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "Tack! Meddelandet har nått utvecklaren",
@@ -1111,13 +1111,13 @@
   "Nuova cartella": "Ny mapp",
   "Nuova cartella...": "Ny mapp...",
   "Nuova copertina": "Nytt omslag",
+  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Nya emulatorer i Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (experimentell) och RetroArch med 33 kärnor och EmulationStation.",
   "Nuovo PIN": "Ny PIN",
   "Nuovo avatar": "Ny avatar",
   "Nuovo gruppo": "Ny grupp",
   "Nuovo messaggio": "Nytt meddelande",
   "Nuovo nome": "Nytt namn",
   "Nuovo titolo in home": "Ny titel på startsidan",
-  "Nuovo: la home la ordini tu. Dalle opzioni di un gioco, di una cartella o di un'app scegli Cambia posizione e la porti dove vuoi con le frecce (L2 e R2 la mandano in testa o in fondo): le altre tessere le fanno posto. L'ordine resta anche dopo il riavvio.": "Nytt: du bestämmer ordningen på startsidan. Välj Flytta i alternativen för ett spel, en mapp eller en app och flytta den dit du vill med pilarna (L2 och R2 skickar den först eller sist): de andra rutorna gör plats åt den. Ordningen finns kvar även efter en omstart.",
   "OK": "OK",
   "Offline": "Offline",
   "Offline · visto %s": "Offline · sågs %s",
@@ -1831,6 +1831,5 @@
   "◀ ▶  Sposta": "◀ ▶  Flytta",
   "✕ ingrandisci": "✕ förstora",
   "✕ preferito   □ silenzia": "✕ favorit   □ tysta",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Nya emulatorer i Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (experimentell) och RetroArch med 33 kärnor och EmulationStation.",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "App-zippar där appmappen ligger i en annan mapp installeras nu rätt, och appens filer får de behörigheter som behövs för att starta."
+  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "Pålitligare spelstart: när systemet svarar att spelet redan körs stänger Omega inte längre spelet för att starta det igen. Den dubbla starten kunde få konsolen att krascha (CE-108262-9)."
 }

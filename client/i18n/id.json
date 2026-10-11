@@ -203,7 +203,6 @@
   "Amico aggiunto": "Teman ditambahkan",
   "Amico rimosso": "Teman dihapus",
   "Analisi": "Memeriksa",
-  "Anche Community, Store, Browser, Installa PKG, Aggiornamenti e App mobile si possono spostare o nascondere; le rimetti in Impostazioni › Home e giochi › App nascoste, e da Ordine della home torni all'ordine automatico.": "Komunitas, Store, Browser, Instal PKG, Pembaruan, dan App seluler juga bisa dipindah atau disembunyikan; kembalikan lewat Pengaturan › Beranda dan game › Aplikasi tersembunyi, dan dari Urutan Beranda kamu bisa kembali ke urutan otomatis.",
   "Anche a console spenta: la web app parla con il server di Omega, come la dash.": "Bahkan saat konsol mati: web app terhubung ke server Omega, sama seperti dasbor.",
   "Anche le sottocartelle, in ordine": "Termasuk subfolder, berurutan",
   "Anche senza JSON": "Tanpa JSON juga bisa",
@@ -629,6 +628,7 @@
   "Gioco aggiunto alla libreria": "Game ditambahkan ke perpustakaan",
   "Gioco cancellato dal disco": "Game dihapus dari disk",
   "Gli homebrew non hanno salvataggi di sistema": "Homebrew tidak memiliki data simpanan sistem",
+  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "Zip aplikasi yang folder aplikasinya ada di dalam folder lain sekarang terpasang dengan benar, dan file aplikasi mendapat izin yang diperlukan untuk berjalan.",
   "Grandi": "Besar",
   "Gratis, aperta e nella tua lingua": "Gratis, terbuka, dan berbahasa Indonesia",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "Terima kasih! Pesan sudah sampai ke pengembang",
@@ -1111,13 +1111,13 @@
   "Nuova cartella": "Folder baru",
   "Nuova cartella...": "Folder baru...",
   "Nuova copertina": "Sampul baru",
+  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Emulator baru di Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (eksperimental), dan RetroArch dengan 33 core serta EmulationStation.",
   "Nuovo PIN": "PIN baru",
   "Nuovo avatar": "Avatar baru",
   "Nuovo gruppo": "Grup baru",
   "Nuovo messaggio": "Pesan baru",
   "Nuovo nome": "Nama baru",
   "Nuovo titolo in home": "Judul baru di Beranda",
-  "Nuovo: la home la ordini tu. Dalle opzioni di un gioco, di una cartella o di un'app scegli Cambia posizione e la porti dove vuoi con le frecce (L2 e R2 la mandano in testa o in fondo): le altre tessere le fanno posto. L'ordine resta anche dopo il riavvio.": "Baru: urutan Beranda kamu yang atur. Dari opsi game, folder, atau aplikasi, pilih Pindahkan lalu bawa ke mana pun dengan tombol panah (L2 dan R2 mengirimnya ke awal atau ke akhir): ubin lain akan memberi tempat. Urutannya tetap tersimpan meski konsol dimulai ulang.",
   "OK": "OK",
   "Offline": "Offline",
   "Offline · visto %s": "Offline · terlihat %s",
@@ -1831,6 +1831,5 @@
   "◀ ▶  Sposta": "◀ ▶  Pindahkan",
   "✕ ingrandisci": "✕ perbesar",
   "✕ preferito   □ silenzia": "✕ favorit   □ bisukan",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Emulator baru di Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (eksperimental), dan RetroArch dengan 33 core serta EmulationStation.",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "Zip aplikasi yang folder aplikasinya ada di dalam folder lain sekarang terpasang dengan benar, dan file aplikasi mendapat izin yang diperlukan untuk berjalan."
+  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "Peluncuran game lebih andal: saat sistem menjawab bahwa game sudah berjalan, Omega tidak lagi menutupnya untuk meluncurkannya ulang. Peluncuran ganda itu bisa membuat konsol crash (CE-108262-9)."
 }

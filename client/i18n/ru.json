@@ -203,7 +203,6 @@
   "Amico aggiunto": "Друг добавлен",
   "Amico rimosso": "Друг удалён",
   "Analisi": "Анализ",
-  "Anche Community, Store, Browser, Installa PKG, Aggiornamenti e App mobile si possono spostare o nascondere; le rimetti in Impostazioni › Home e giochi › App nascoste, e da Ordine della home torni all'ordine automatico.": "Сообщество, Store, Браузер, Установка PKG, Обновления и Моб. приложение тоже можно перемещать и скрывать; вернуть их можно в Настройки › Главный экран и игры › Скрытые приложения, а через Порядок на главном экране — вернуться к автоматическому порядку.",
   "Anche a console spenta: la web app parla con il server di Omega, come la dash.": "Даже при выключенной консоли: веб-приложение работает через сервер Omega, как и дашборд.",
   "Anche le sottocartelle, in ordine": "Включая вложенные папки, по порядку",
   "Anche senza JSON": "Можно и без JSON",
@@ -629,6 +628,7 @@
   "Gioco aggiunto alla libreria": "Игра добавлена в библиотеку",
   "Gioco cancellato dal disco": "Игра удалена с диска",
   "Gli homebrew non hanno salvataggi di sistema": "У homebrew-приложений нет системных сохранений",
+  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "Zip-архивы приложений, где папка приложения лежит внутри другой папки, теперь устанавливаются правильно, а файлы приложения получают нужные для запуска права.",
   "Grandi": "Крупные",
   "Gratis, aperta e nella tua lingua": "Бесплатно, открыто и на русском",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "Спасибо! Сообщение доставлено разработчику",
@@ -1111,13 +1111,13 @@
   "Nuova cartella": "Новая папка",
   "Nuova cartella...": "Новая папка...",
   "Nuova copertina": "Новая обложка",
+  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Новые эмуляторы в магазине: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (экспериментальный) и RetroArch с 33 ядрами и EmulationStation.",
   "Nuovo PIN": "Новый PIN",
   "Nuovo avatar": "Новый аватар",
   "Nuovo gruppo": "Новая группа",
   "Nuovo messaggio": "Новое сообщение",
   "Nuovo nome": "Новое имя",
   "Nuovo titolo in home": "Новый элемент на главном экране",
-  "Nuovo: la home la ordini tu. Dalle opzioni di un gioco, di una cartella o di un'app scegli Cambia posizione e la porti dove vuoi con le frecce (L2 e R2 la mandano in testa o in fondo): le altre tessere le fanno posto. L'ordine resta anche dopo il riavvio.": "Новое: порядок на главном экране теперь выбираете вы. В параметрах игры, папки или приложения выберите Переместить и передвиньте плитку стрелками куда нужно (L2 и R2 отправляют её в начало или в конец): остальные плитки уступят ей место. Порядок сохраняется и после перезапуска.",
   "OK": "OK",
   "Offline": "Не в сети",
   "Offline · visto %s": "Не в сети · %s",
@@ -1831,6 +1831,5 @@
   "◀ ▶  Sposta": "◀ ▶  Переместить",
   "✕ ingrandisci": "✕ увеличить",
   "✕ preferito   □ silenzia": "✕ избранный   □ без звука",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Новые эмуляторы в магазине: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (экспериментальный) и RetroArch с 33 ядрами и EmulationStation.",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "Zip-архивы приложений, где папка приложения лежит внутри другой папки, теперь устанавливаются правильно, а файлы приложения получают нужные для запуска права."
+  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "Более надёжный запуск игр: если система отвечает, что игра уже запущена, Omega больше не закрывает её для повторного запуска. Такой двойной запуск мог приводить к сбою консоли (CE-108262-9)."
 }

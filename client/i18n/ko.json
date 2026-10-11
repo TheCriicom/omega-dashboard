@@ -203,7 +203,6 @@
   "Amico aggiunto": "친구 추가됨",
   "Amico rimosso": "친구 삭제됨",
   "Analisi": "확인 중",
-  "Anche Community, Store, Browser, Installa PKG, Aggiornamenti e App mobile si possono spostare o nascondere; le rimetti in Impostazioni › Home e giochi › App nascoste, e da Ordine della home torni all'ordine automatico.": "커뮤니티, 스토어, 브라우저, PKG 설치, 업데이트, 모바일 앱도 이동하거나 숨길 수 있습니다. 설정 › 홈 및 게임 › 숨긴 앱에서 다시 표시하고, 홈 순서에서 자동 순서로 돌아갈 수 있습니다.",
   "Anche a console spenta: la web app parla con il server di Omega, come la dash.": "콘솔이 꺼져 있어도 OK: 웹 앱은 대시보드처럼 Omega 서버와 통신합니다.",
   "Anche le sottocartelle, in ordine": "하위 폴더까지 순서대로",
   "Anche senza JSON": "JSON 없이도",
@@ -629,6 +628,7 @@
   "Gioco aggiunto alla libreria": "게임이 라이브러리에 추가되었습니다",
   "Gioco cancellato dal disco": "디스크에서 게임을 삭제했습니다",
   "Gli homebrew non hanno salvataggi di sistema": "홈브루에는 시스템 저장 데이터가 없습니다",
+  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "앱 폴더가 다른 폴더 안에 있는 앱 zip도 이제 제대로 설치되며, 앱 파일에 실행에 필요한 권한이 부여됩니다.",
   "Grandi": "크게",
   "Gratis, aperta e nella tua lingua": "무료, 오픈 소스, 한국어 지원",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "감사합니다! 메시지가 개발자에게 전달되었습니다",
@@ -1111,13 +1111,13 @@
   "Nuova cartella": "새 폴더",
   "Nuova cartella...": "새 폴더...",
   "Nuova copertina": "새 커버",
+  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "스토어에 새 에뮬레이터 추가: Nintendo 64, PlayStation 1, PlayStation 2, PSP, 슈퍼 패미컴, Xbox, Xbox 360(실험적), 33개 코어와 EmulationStation을 갖춘 RetroArch.",
   "Nuovo PIN": "새 PIN",
   "Nuovo avatar": "새 아바타",
   "Nuovo gruppo": "새 그룹",
   "Nuovo messaggio": "새 메시지",
   "Nuovo nome": "새 이름",
   "Nuovo titolo in home": "홈에 새 타이틀",
-  "Nuovo: la home la ordini tu. Dalle opzioni di un gioco, di una cartella o di un'app scegli Cambia posizione e la porti dove vuoi con le frecce (L2 e R2 la mandano in testa o in fondo): le altre tessere le fanno posto. L'ordine resta anche dopo il riavvio.": "새 기능: 홈 순서를 직접 정할 수 있습니다. 게임, 폴더, 앱의 옵션에서 이동을 선택하고 방향키로 원하는 곳에 놓으세요(L2와 R2로 맨 앞이나 맨 뒤로 보냅니다). 다른 타일이 자리를 비켜 줍니다. 순서는 재시작 후에도 유지됩니다.",
   "OK": "확인",
   "Offline": "오프라인",
   "Offline · visto %s": "오프라인 · 마지막 접속 %s",
@@ -1831,6 +1831,5 @@
   "◀ ▶  Sposta": "◀ ▶  이동",
   "✕ ingrandisci": "✕ 확대",
   "✕ preferito   □ silenzia": "✕ 즐겨찾기   □ 음소거",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "스토어에 새 에뮬레이터 추가: Nintendo 64, PlayStation 1, PlayStation 2, PSP, 슈퍼 패미컴, Xbox, Xbox 360(실험적), 33개 코어와 EmulationStation을 갖춘 RetroArch.",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "앱 폴더가 다른 폴더 안에 있는 앱 zip도 이제 제대로 설치되며, 앱 파일에 실행에 필요한 권한이 부여됩니다."
+  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "게임 실행 안정성 향상: 시스템이 게임이 이미 실행 중이라고 응답하면 Omega가 더 이상 게임을 종료하고 다시 실행하지 않습니다. 이 이중 실행 때문에 콘솔이 다운될 수 있었습니다(CE-108262-9)."
 }

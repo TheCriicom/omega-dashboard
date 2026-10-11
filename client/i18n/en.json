@@ -203,7 +203,6 @@
   "Amico aggiunto": "Friend added",
   "Amico rimosso": "Friend removed",
   "Analisi": "Checking",
-  "Anche Community, Store, Browser, Installa PKG, Aggiornamenti e App mobile si possono spostare o nascondere; le rimetti in Impostazioni › Home e giochi › App nascoste, e da Ordine della home torni all'ordine automatico.": "Community, Store, Browser, Install PKG, Updates and Mobile app can also be moved or hidden; bring them back in Settings › Home and games › Hidden apps, and use Home order to go back to the automatic order.",
   "Anche a console spenta: la web app parla con il server di Omega, come la dash.": "Even with the console off: the web app talks to the Omega server, just like the dashboard.",
   "Anche le sottocartelle, in ordine": "Subfolders too, in order",
   "Anche senza JSON": "Even without JSON",
@@ -629,6 +628,7 @@
   "Gioco aggiunto alla libreria": "Game added to your library",
   "Gioco cancellato dal disco": "Game deleted from the disk",
   "Gli homebrew non hanno salvataggi di sistema": "Homebrew apps don't have system saved data",
+  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "App zips with the app folder inside another folder now install correctly, and the app's files get the permissions they need to start.",
   "Grandi": "Large",
   "Gratis, aperta e nella tua lingua": "Free, open and in your language",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "Thanks! Your message reached the developer",
@@ -1111,13 +1111,13 @@
   "Nuova cartella": "New folder",
   "Nuova cartella...": "New folder...",
   "Nuova copertina": "New cover",
+  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "New emulators in the Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (experimental) and RetroArch with 33 cores and EmulationStation.",
   "Nuovo PIN": "New PIN",
   "Nuovo avatar": "New avatar",
   "Nuovo gruppo": "New group",
   "Nuovo messaggio": "New message",
   "Nuovo nome": "New name",
   "Nuovo titolo in home": "New title on the Home",
-  "Nuovo: la home la ordini tu. Dalle opzioni di un gioco, di una cartella o di un'app scegli Cambia posizione e la porti dove vuoi con le frecce (L2 e R2 la mandano in testa o in fondo): le altre tessere le fanno posto. L'ordine resta anche dopo il riavvio.": "New: you choose the Home order. From the options of a game, folder or app, pick Move and take it wherever you like with the arrows (L2 and R2 send it to the start or the end): the other tiles make room for it. The order stays even after a restart.",
   "OK": "OK",
   "Offline": "Offline",
   "Offline · visto %s": "Offline · seen %s",
@@ -1831,6 +1831,5 @@
   "◀ ▶  Sposta": "◀ ▶  Move",
   "✕ ingrandisci": "✕ enlarge",
   "✕ preferito   □ silenzia": "✕ favorite   □ mute",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "New emulators in the Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (experimental) and RetroArch with 33 cores and EmulationStation.",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "App zips with the app folder inside another folder now install correctly, and the app's files get the permissions they need to start."
+  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "More reliable game launching: when the system replies that the game is already running, Omega no longer closes it to launch it again. That double launch could crash the console (CE-108262-9)."
 }

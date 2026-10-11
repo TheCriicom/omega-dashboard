@@ -203,7 +203,6 @@
   "Amico aggiunto": "เพิ่มเพื่อนแล้ว",
   "Amico rimosso": "ลบเพื่อนแล้ว",
   "Analisi": "กำลังตรวจสอบ",
-  "Anche Community, Store, Browser, Installa PKG, Aggiornamenti e App mobile si possono spostare o nascondere; le rimetti in Impostazioni › Home e giochi › App nascoste, e da Ordine della home torni all'ordine automatico.": "คอมมูนิตี้ Store เบราว์เซอร์ ติดตั้ง PKG อัปเดต และแอปมือถือ ก็ย้ายหรือซ่อนได้เช่นกัน นำกลับมาได้ที่ การตั้งค่า › หน้าหลักและเกม › แอปที่ซ่อน และกลับไปใช้ลำดับอัตโนมัติได้จาก ลำดับหน้าหลัก",
   "Anche a console spenta: la web app parla con il server di Omega, come la dash.": "ใช้ได้แม้ปิดคอนโซล: เว็บแอปเชื่อมต่อกับเซิร์ฟเวอร์ Omega เหมือนแดชบอร์ด",
   "Anche le sottocartelle, in ordine": "รวมโฟลเดอร์ย่อยด้วย ตามลำดับ",
   "Anche senza JSON": "ไม่ต้องใช้ JSON ก็ได้",
@@ -629,6 +628,7 @@
   "Gioco aggiunto alla libreria": "เพิ่มเกมลงในคลังแล้ว",
   "Gioco cancellato dal disco": "ลบเกมออกจากดิสก์แล้ว",
   "Gli homebrew non hanno salvataggi di sistema": "homebrew ไม่มีข้อมูลเซฟของระบบ",
+  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "ไฟล์ zip ของแอปที่มีโฟลเดอร์แอปอยู่ในอีกโฟลเดอร์หนึ่งติดตั้งได้ถูกต้องแล้ว และไฟล์ของแอปได้รับสิทธิ์ที่จำเป็นในการเปิด",
   "Grandi": "ใหญ่",
   "Gratis, aperta e nella tua lingua": "ฟรี เปิดกว้าง และมีภาษาไทย",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "ขอบคุณ! ข้อความถึงผู้พัฒนาแล้ว",
@@ -1111,13 +1111,13 @@
   "Nuova cartella": "โฟลเดอร์ใหม่",
   "Nuova cartella...": "โฟลเดอร์ใหม่...",
   "Nuova copertina": "ภาพปกใหม่",
+  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "อีมูเลเตอร์ใหม่ใน Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (ทดลอง) และ RetroArch พร้อม 33 คอร์และ EmulationStation",
   "Nuovo PIN": "PIN ใหม่",
   "Nuovo avatar": "อวตารใหม่",
   "Nuovo gruppo": "กลุ่มใหม่",
   "Nuovo messaggio": "ข้อความใหม่",
   "Nuovo nome": "ชื่อใหม่",
   "Nuovo titolo in home": "รายการใหม่ในหน้าหลัก",
-  "Nuovo: la home la ordini tu. Dalle opzioni di un gioco, di una cartella o di un'app scegli Cambia posizione e la porti dove vuoi con le frecce (L2 e R2 la mandano in testa o in fondo): le altre tessere le fanno posto. L'ordine resta anche dopo il riavvio.": "ใหม่: จัดลำดับหน้าหลักได้เอง จากตัวเลือกของเกม โฟลเดอร์ หรือแอป ให้เลือก ย้าย แล้วใช้ปุ่มลูกศรพาไปไว้ตรงไหนก็ได้ (L2 และ R2 ส่งไปไว้หน้าสุดหรือท้ายสุด) ไทล์อื่นๆ จะขยับเว้นที่ให้ ลำดับจะยังอยู่แม้รีสตาร์ทแล้ว",
   "OK": "ตกลง",
   "Offline": "ออฟไลน์",
   "Offline · visto %s": "ออฟไลน์ · เห็นล่าสุด %s",
@@ -1831,6 +1831,5 @@
   "◀ ▶  Sposta": "◀ ▶  ย้าย",
   "✕ ingrandisci": "✕ ขยาย",
   "✕ preferito   □ silenzia": "✕ รายการโปรด   □ ปิดเสียง",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "อีมูเลเตอร์ใหม่ใน Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (ทดลอง) และ RetroArch พร้อม 33 คอร์และ EmulationStation",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "ไฟล์ zip ของแอปที่มีโฟลเดอร์แอปอยู่ในอีกโฟลเดอร์หนึ่งติดตั้งได้ถูกต้องแล้ว และไฟล์ของแอปได้รับสิทธิ์ที่จำเป็นในการเปิด"
+  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "เปิดเกมได้เสถียรขึ้น: เมื่อระบบตอบว่าเกมกำลังทำงานอยู่แล้ว Omega จะไม่ปิดเกมเพื่อเปิดใหม่อีกต่อไป การเปิดซ้ำนี้อาจทำให้คอนโซลแครชได้ (CE-108262-9)"
 }

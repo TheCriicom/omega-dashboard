@@ -203,7 +203,6 @@
   "Amico aggiunto": "Ven tilføjet",
   "Amico rimosso": "Ven fjernet",
   "Analisi": "Kontrollerer",
-  "Anche Community, Store, Browser, Installa PKG, Aggiornamenti e App mobile si possono spostare o nascondere; le rimetti in Impostazioni › Home e giochi › App nascoste, e da Ordine della home torni all'ordine automatico.": "Også Community, Store, Browser, Installér PKG, Opdateringer og Mobilapp kan flyttes eller skjules; du henter dem tilbage under Indstillinger › Startskærm og spil › Skjulte apps, og med Startskærmens rækkefølge vender du tilbage til den automatiske rækkefølge.",
   "Anche a console spenta: la web app parla con il server di Omega, come la dash.": "Også når konsollen er slukket: webappen taler med Omegas server, ligesom dashboardet.",
   "Anche le sottocartelle, in ordine": "Også undermapper, i rækkefølge",
   "Anche senza JSON": "Også uden JSON",
@@ -629,6 +628,7 @@
   "Gioco aggiunto alla libreria": "Spil føjet til biblioteket",
   "Gioco cancellato dal disco": "Spillet er slettet fra disken",
   "Gli homebrew non hanno salvataggi di sistema": "Homebrew har ingen systemgemte data",
+  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "App-zip-filer, hvor app-mappen ligger i en anden mappe, installeres nu korrekt, og appens filer får de tilladelser, de skal bruge for at starte.",
   "Grandi": "Store",
   "Gratis, aperta e nella tua lingua": "Gratis, åben og på dansk",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "Tak! Beskeden er nået frem til udvikleren",
@@ -1111,13 +1111,13 @@
   "Nuova cartella": "Ny mappe",
   "Nuova cartella...": "Ny mappe...",
   "Nuova copertina": "Nyt cover",
+  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Nye emulatorer i Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (eksperimentel) og RetroArch med 33 cores og EmulationStation.",
   "Nuovo PIN": "Ny PIN",
   "Nuovo avatar": "Ny avatar",
   "Nuovo gruppo": "Ny gruppe",
   "Nuovo messaggio": "Ny besked",
   "Nuovo nome": "Nyt navn",
   "Nuovo titolo in home": "Ny titel på startskærmen",
-  "Nuovo: la home la ordini tu. Dalle opzioni di un gioco, di una cartella o di un'app scegli Cambia posizione e la porti dove vuoi con le frecce (L2 e R2 la mandano in testa o in fondo): le altre tessere le fanno posto. L'ordine resta anche dopo il riavvio.": "Nyt: du bestemmer selv rækkefølgen på startskærmen. Vælg Flyt i mulighederne for et spil, en mappe eller en app, og flyt den hen, hvor du vil, med pilene (L2 og R2 sender den først eller sidst): de andre felter gør plads til den. Rækkefølgen bevares også efter en genstart.",
   "OK": "OK",
   "Offline": "Offline",
   "Offline · visto %s": "Offline · set %s",
@@ -1831,6 +1831,5 @@
   "◀ ▶  Sposta": "◀ ▶  Flyt",
   "✕ ingrandisci": "✕ forstør",
   "✕ preferito   □ silenzia": "✕ favorit   □ lydløs",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Nye emulatorer i Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (eksperimentel) og RetroArch med 33 cores og EmulationStation.",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "App-zip-filer, hvor app-mappen ligger i en anden mappe, installeres nu korrekt, og appens filer får de tilladelser, de skal bruge for at starte."
+  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "Mere pålidelig start af spil: når systemet svarer, at spillet allerede kører, lukker Omega det ikke længere for at starte det igen. Den dobbelte start kunne få konsollen til at gå ned (CE-108262-9)."
 }

@@ -384,12 +384,33 @@ static void do_launch(int idx) {
   int rc = sceLncUtilLaunchApp(apps[idx].tid, argv, &p);
   omega_log("LncLaunch %s uid=0x%x rc=0x%x", apps[idx].tid, uid, rc);
   if (rc == (int)0x80940010 || rc == (int)0x8094000c) {
-    // ancora un'app in mezzo: chiudila (anche se è lo stesso titolo, sospeso) e riprova
-    int app = sceSystemServiceGetAppIdOfRunningBigApp();
-    char tid[64] = ""; if (app >= 0) sceSystemServiceGetAppTitleId(app, tid);
-    if (app >= 0 && strcmp(tid, g_host_tid)) { sceLncUtilKillApp((uint32_t)app); SDL_Delay(1500); }
-    rc = sceLncUtilLaunchApp(apps[idx].tid, argv, &p);
-    omega_log("LncLaunch (riprova) %s rc=0x%x", apps[idx].tid, rc);
+    // Con Omega in primo piano il sistema risponde quasi sempre così ma l'avvio
+    // va avanti: chiude Omega e apre il gioco. Un secondo avvio, o peggio
+    // chiudere il gioco che sta partendo, lo interrompe a metà (ShadowMount
+    // rimonta l'immagine tre volte) e sulle console con kstuff porta al crash
+    // del sistema (CE-108262-9). Si riprova solo se a bloccare è un altro gioco.
+    int app = -1; char tid[64] = "";
+    for (int w = 0; w < 8; w++) {   // fino a 4 s: si aspetta che il gioco prenda il primo piano
+      SDL_Delay(500);
+      app = sceSystemServiceGetAppIdOfRunningBigApp(); tid[0] = 0;
+      if (app >= 0) sceSystemServiceGetAppTitleId(app, tid);
+      if (!strcmp(tid, apps[idx].tid)) break;
+    }
+    if (app >= 0 && tid[0] && strcmp(tid, g_host_tid) && strcmp(tid, apps[idx].tid) && strncmp(tid, "NPXS", 4)) {
+      int krc = sceLncUtilKillApp((uint32_t)app);
+      omega_log("LncLaunch: chiudo %s che blocca l'avvio (rc=0x%x)", tid, krc);
+      SDL_Delay(1500);
+      rc = sceLncUtilLaunchApp(apps[idx].tid, argv, &p);
+      omega_log("LncLaunch (riprova) %s rc=0x%x", apps[idx].tid, rc);
+    } else if (!strcmp(tid, apps[idx].tid)) {
+      omega_log("LncLaunch: %s partito", apps[idx].tid);
+      rc = 0;
+    } else {
+      // dopo 4 s c'è ancora Omega: il sistema non l'ha preso, un solo altro tentativo
+      rc = sceLncUtilLaunchApp(apps[idx].tid, argv, &p);
+      omega_log("LncLaunch (riprova, primo piano %s) %s rc=0x%x", tid[0] ? tid : "-", apps[idx].tid, rc);
+      if (rc == (int)0x80940010 || rc == (int)0x8094000c) rc = 0;   // stessa risposta di prima: l'avvio è in corso
+    }
   }
   if (rc == (int)0x80940031) { set_msg(_("Questo titolo non è registrato nel sistema e non può partire"), 1); social_presence("online", NULL, NULL); return; }
 #else

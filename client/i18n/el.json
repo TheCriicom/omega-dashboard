@@ -203,7 +203,6 @@
   "Amico aggiunto": "Ο φίλος προστέθηκε",
   "Amico rimosso": "Ο φίλος αφαιρέθηκε",
   "Analisi": "Ανάλυση",
-  "Anche Community, Store, Browser, Installa PKG, Aggiornamenti e App mobile si possono spostare o nascondere; le rimetti in Impostazioni › Home e giochi › App nascoste, e da Ordine della home torni all'ordine automatico.": "Και τα Κοινότητα, Store, Browser, Εγκατάσταση PKG, Ενημερώσεις και App κινητού μπορούν να μετακινηθούν ή να αποκρυφτούν· τα επαναφέρετε στις Ρυθμίσεις › Αρχική και παιχνίδια › Κρυφές εφαρμογές, και από τη Σειρά Αρχικής επιστρέφετε στην αυτόματη σειρά.",
   "Anche a console spenta: la web app parla con il server di Omega, come la dash.": "Ακόμα και με την κονσόλα κλειστή: η web app επικοινωνεί με τον server του Omega, όπως και το dashboard.",
   "Anche le sottocartelle, in ordine": "Μαζί με τους υποφακέλους, με τη σειρά",
   "Anche senza JSON": "Ακόμη και χωρίς JSON",
@@ -629,6 +628,7 @@
   "Gioco aggiunto alla libreria": "Το παιχνίδι προστέθηκε στη βιβλιοθήκη",
   "Gioco cancellato dal disco": "Το παιχνίδι διαγράφηκε από τον δίσκο",
   "Gli homebrew non hanno salvataggi di sistema": "Οι εφαρμογές homebrew δεν έχουν αποθηκευμένα δεδομένα συστήματος",
+  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "Τα zip εφαρμογών με τον φάκελο της εφαρμογής μέσα σε άλλο φάκελο εγκαθίστανται πλέον σωστά, και τα αρχεία της εφαρμογής παίρνουν τα δικαιώματα που χρειάζονται για να ξεκινήσει.",
   "Grandi": "Μεγάλα",
   "Gratis, aperta e nella tua lingua": "Δωρεάν, ανοιχτή και στα ελληνικά",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "Ευχαριστούμε! Το μήνυμα έφτασε στον προγραμματιστή",
@@ -1111,13 +1111,13 @@
   "Nuova cartella": "Νέος φάκελος",
   "Nuova cartella...": "Νέος φάκελος...",
   "Nuova copertina": "Νέο εξώφυλλο",
+  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Νέοι εξομοιωτές στο Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (πειραματικός) και RetroArch με 33 cores και EmulationStation.",
   "Nuovo PIN": "Νέο PIN",
   "Nuovo avatar": "Νέο avatar",
   "Nuovo gruppo": "Νέα ομάδα",
   "Nuovo messaggio": "Νέο μήνυμα",
   "Nuovo nome": "Νέο όνομα",
   "Nuovo titolo in home": "Νέος τίτλος στην Αρχική",
-  "Nuovo: la home la ordini tu. Dalle opzioni di un gioco, di una cartella o di un'app scegli Cambia posizione e la porti dove vuoi con le frecce (L2 e R2 la mandano in testa o in fondo): le altre tessere le fanno posto. L'ordine resta anche dopo il riavvio.": "Νέο: τη σειρά της Αρχικής την επιλέγετε εσείς. Από τις επιλογές ενός παιχνιδιού, φακέλου ή εφαρμογής επιλέξτε Μετακίνηση και μεταφέρετέ το όπου θέλετε με τα βέλη (τα L2 και R2 το στέλνουν στην αρχή ή στο τέλος): τα άλλα πλακίδια του κάνουν χώρο. Η σειρά διατηρείται και μετά την επανεκκίνηση.",
   "OK": "OK",
   "Offline": "Offline",
   "Offline · visto %s": "Εκτός σύνδεσης · %s",
@@ -1831,6 +1831,5 @@
   "◀ ▶  Sposta": "◀ ▶  Μετακίνηση",
   "✕ ingrandisci": "✕ μεγέθυνση",
   "✕ preferito   □ silenzia": "✕ αγαπημένος   □ σίγαση",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Νέοι εξομοιωτές στο Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (πειραματικός) και RetroArch με 33 cores και EmulationStation.",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "Τα zip εφαρμογών με τον φάκελο της εφαρμογής μέσα σε άλλο φάκελο εγκαθίστανται πλέον σωστά, και τα αρχεία της εφαρμογής παίρνουν τα δικαιώματα που χρειάζονται για να ξεκινήσει."
+  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "Πιο αξιόπιστη εκκίνηση παιχνιδιών: όταν το σύστημα απαντά ότι το παιχνίδι εκτελείται ήδη, το Omega δεν το κλείνει πια για να το ξανανοίξει. Αυτή η διπλή εκκίνηση μπορούσε να κολλήσει την κονσόλα (CE-108262-9)."
 }

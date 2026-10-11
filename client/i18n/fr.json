@@ -203,7 +203,6 @@
   "Amico aggiunto": "Ami ajouté",
   "Amico rimosso": "Ami supprimé",
   "Analisi": "Analyse",
-  "Anche Community, Store, Browser, Installa PKG, Aggiornamenti e App mobile si possono spostare o nascondere; le rimetti in Impostazioni › Home e giochi › App nascoste, e da Ordine della home torni all'ordine automatico.": "Communauté, Store, Navigateur, Installer des PKG, Mises à jour et Appli mobile peuvent aussi être déplacés ou masqués ; vous les retrouvez dans Paramètres › Accueil et jeux › Applis masquées, et Ordre de l'accueil permet de revenir à l'ordre automatique.",
   "Anche a console spenta: la web app parla con il server di Omega, come la dash.": "Même console éteinte : l'appli web communique avec le serveur d'Omega, comme le tableau de bord.",
   "Anche le sottocartelle, in ordine": "Sous-dossiers compris, dans l'ordre",
   "Anche senza JSON": "Même sans JSON",
@@ -629,6 +628,7 @@
   "Gioco aggiunto alla libreria": "Jeu ajouté à la bibliothèque",
   "Gioco cancellato dal disco": "Jeu effacé du disque",
   "Gli homebrew non hanno salvataggi di sistema": "Les homebrews n'ont pas de sauvegardes système",
+  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "Les zip d'applications dont le dossier se trouve dans un autre dossier s'installent maintenant correctement, et les fichiers de l'application ont les bonnes autorisations pour démarrer.",
   "Grandi": "Grandes",
   "Gratis, aperta e nella tua lingua": "Gratuite, ouverte et dans votre langue",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "Merci ! Le message est bien parvenu au développeur",
@@ -1111,13 +1111,13 @@
   "Nuova cartella": "Nouveau dossier",
   "Nuova cartella...": "Nouveau dossier...",
   "Nuova copertina": "Nouvelle couverture",
+  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Nouveaux émulateurs dans le Store : Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (expérimental) et RetroArch avec 33 cores et EmulationStation.",
   "Nuovo PIN": "Nouveau PIN",
   "Nuovo avatar": "Nouvel avatar",
   "Nuovo gruppo": "Nouveau groupe",
   "Nuovo messaggio": "Nouveau message",
   "Nuovo nome": "Nouveau nom",
   "Nuovo titolo in home": "Nouveau titre sur l'accueil",
-  "Nuovo: la home la ordini tu. Dalle opzioni di un gioco, di una cartella o di un'app scegli Cambia posizione e la porti dove vuoi con le frecce (L2 e R2 la mandano in testa o in fondo): le altre tessere le fanno posto. L'ordine resta anche dopo il riavvio.": "Nouveau : c'est vous qui ordonnez l'accueil. Dans les options d'un jeu, d'un dossier ou d'une appli, choisissez Déplacer et placez-le où vous voulez avec les flèches (L2 et R2 l'envoient au début ou à la fin) : les autres vignettes lui font de la place. L'ordre est conservé même après un redémarrage.",
   "OK": "OK",
   "Offline": "Hors ligne",
   "Offline · visto %s": "Hors ligne · vu %s",
@@ -1831,6 +1831,5 @@
   "◀ ▶  Sposta": "◀ ▶  Déplacer",
   "✕ ingrandisci": "✕ agrandir",
   "✕ preferito   □ silenzia": "✕ favori   □ couper",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Nouveaux émulateurs dans le Store : Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (expérimental) et RetroArch avec 33 cores et EmulationStation.",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "Les zip d'applications dont le dossier se trouve dans un autre dossier s'installent maintenant correctement, et les fichiers de l'application ont les bonnes autorisations pour démarrer."
+  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "Lancement des jeux plus fiable : quand le système répond que le jeu est déjà en cours, Omega ne le ferme plus pour le relancer. Ce double lancement pouvait faire planter la console (CE-108262-9)."
 }

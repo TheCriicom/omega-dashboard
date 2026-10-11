@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026.10.11.1
+
+- **Game launch**: when the system answers a launch with "already running"
+  (0x80940010) it is usually starting the game anyway. Omega now waits for the
+  game to show up instead of killing it and launching it again: that double
+  launch could crash the console (CE-108262-9). It still closes and relaunches
+  only when a different game is in the way.
+
 ## 2026.10.10.1
 
 - **Store: new emulators.** Mupen64Plus PS5 (Nintendo 64), PSXS5

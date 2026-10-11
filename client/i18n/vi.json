@@ -203,7 +203,6 @@
   "Amico aggiunto": "Đã thêm bạn",
   "Amico rimosso": "Đã xóa bạn",
   "Analisi": "Đang kiểm tra",
-  "Anche Community, Store, Browser, Installa PKG, Aggiornamenti e App mobile si possono spostare o nascondere; le rimetti in Impostazioni › Home e giochi › App nascoste, e da Ordine della home torni all'ordine automatico.": "Cộng đồng, Store, Trình duyệt, Cài PKG, Cập nhật và App di động cũng có thể di chuyển hoặc ẩn; bạn đưa chúng trở lại trong Cài đặt › Màn hình chính và trò chơi › Ứng dụng đã ẩn, và từ Thứ tự Màn hình chính bạn quay về thứ tự tự động.",
   "Anche a console spenta: la web app parla con il server di Omega, come la dash.": "Kể cả khi máy tắt: web app kết nối với máy chủ Omega, giống như dashboard.",
   "Anche le sottocartelle, in ordine": "Cả thư mục con, theo thứ tự",
   "Anche senza JSON": "Không cần JSON",
@@ -629,6 +628,7 @@
   "Gioco aggiunto alla libreria": "Đã thêm trò chơi vào thư viện",
   "Gioco cancellato dal disco": "Đã xóa trò chơi khỏi ổ đĩa",
   "Gli homebrew non hanno salvataggi di sistema": "Homebrew không có dữ liệu lưu hệ thống",
+  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "Các file zip ứng dụng có thư mục ứng dụng nằm trong một thư mục khác giờ đã cài đặt đúng, và các file của ứng dụng được cấp quyền cần thiết để khởi động.",
   "Grandi": "Lớn",
   "Gratis, aperta e nella tua lingua": "Miễn phí, mở và có tiếng Việt",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "Cảm ơn! Tin nhắn đã đến nhà phát triển",
@@ -1111,13 +1111,13 @@
   "Nuova cartella": "Thư mục mới",
   "Nuova cartella...": "Thư mục mới...",
   "Nuova copertina": "Ảnh bìa mới",
+  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Trình giả lập mới trong Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (thử nghiệm) và RetroArch với 33 core cùng EmulationStation.",
   "Nuovo PIN": "PIN mới",
   "Nuovo avatar": "Ảnh đại diện mới",
   "Nuovo gruppo": "Nhóm mới",
   "Nuovo messaggio": "Tin nhắn mới",
   "Nuovo nome": "Tên mới",
   "Nuovo titolo in home": "Mục mới trên Màn hình chính",
-  "Nuovo: la home la ordini tu. Dalle opzioni di un gioco, di una cartella o di un'app scegli Cambia posizione e la porti dove vuoi con le frecce (L2 e R2 la mandano in testa o in fondo): le altre tessere le fanno posto. L'ordine resta anche dopo il riavvio.": "Mới: bạn tự sắp xếp Màn hình chính. Trong tùy chọn của một trò chơi, thư mục hoặc ứng dụng, chọn Di chuyển và dùng các phím mũi tên để đưa nó đến nơi bạn muốn (L2 và R2 đưa nó lên đầu hoặc xuống cuối): các ô khác sẽ nhường chỗ. Thứ tự vẫn được giữ sau khi khởi động lại.",
   "OK": "OK",
   "Offline": "Ngoại tuyến",
   "Offline · visto %s": "Ngoại tuyến · hoạt động %s",
@@ -1831,6 +1831,5 @@
   "◀ ▶  Sposta": "◀ ▶  Di chuyển",
   "✕ ingrandisci": "✕ phóng to",
   "✕ preferito   □ silenzia": "✕ yêu thích   □ tắt tiếng",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Trình giả lập mới trong Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (thử nghiệm) và RetroArch với 33 core cùng EmulationStation.",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "Các file zip ứng dụng có thư mục ứng dụng nằm trong một thư mục khác giờ đã cài đặt đúng, và các file của ứng dụng được cấp quyền cần thiết để khởi động."
+  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "Mở game ổn định hơn: khi hệ thống báo game đang chạy, Omega không còn đóng game để mở lại nữa. Việc mở hai lần này có thể làm máy bị treo (CE-108262-9)."
 }

@@ -203,7 +203,6 @@
   "Amico aggiunto": "Amigo añadido",
   "Amico rimosso": "Amigo eliminado",
   "Analisi": "Comprobando",
-  "Anche Community, Store, Browser, Installa PKG, Aggiornamenti e App mobile si possono spostare o nascondere; le rimetti in Impostazioni › Home e giochi › App nascoste, e da Ordine della home torni all'ordine automatico.": "Comunidad, Store, Navegador, Instalar PKG, Actualizaciones y App móvil también se pueden mover u ocultar; las recuperas en Ajustes › Inicio y juegos › Apps ocultas, y desde Orden del Inicio vuelves al orden automático.",
   "Anche a console spenta: la web app parla con il server di Omega, come la dash.": "Incluso con la consola apagada: la web app habla con el servidor de Omega, como el panel.",
   "Anche le sottocartelle, in ordine": "También las subcarpetas, en orden",
   "Anche senza JSON": "Incluso sin JSON",
@@ -629,6 +628,7 @@
   "Gioco aggiunto alla libreria": "Juego añadido a la biblioteca",
   "Gioco cancellato dal disco": "Juego borrado del disco",
   "Gli homebrew non hanno salvataggi di sistema": "Las aplicaciones homebrew no tienen partidas guardadas del sistema",
+  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "Los zip de apps con la carpeta dentro de otra carpeta ahora se instalan bien, y los archivos de la app tienen los permisos necesarios para arrancar.",
   "Grandi": "Grandes",
   "Gratis, aperta e nella tua lingua": "Gratis, abierta y en tu idioma",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "¡Gracias! El mensaje ha llegado al desarrollador",
@@ -1111,13 +1111,13 @@
   "Nuova cartella": "Nueva carpeta",
   "Nuova cartella...": "Nueva carpeta...",
   "Nuova copertina": "Nueva portada",
+  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Nuevos emuladores en la Tienda: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (experimental) y RetroArch con 33 núcleos y EmulationStation.",
   "Nuovo PIN": "Nuevo PIN",
   "Nuovo avatar": "Nuevo avatar",
   "Nuovo gruppo": "Nuevo grupo",
   "Nuovo messaggio": "Nuevo mensaje",
   "Nuovo nome": "Nuevo nombre",
   "Nuovo titolo in home": "Título nuevo en el Inicio",
-  "Nuovo: la home la ordini tu. Dalle opzioni di un gioco, di una cartella o di un'app scegli Cambia posizione e la porti dove vuoi con le frecce (L2 e R2 la mandano in testa o in fondo): le altre tessere le fanno posto. L'ordine resta anche dopo il riavvio.": "Nuevo: el orden del Inicio lo eliges tú. En las opciones de un juego, una carpeta o una app, elige Mover y llévalo adonde quieras con las flechas (L2 y R2 lo mandan al principio o al final): las demás fichas le hacen sitio. El orden se mantiene incluso después de reiniciar.",
   "OK": "OK",
   "Offline": "Desconectado",
   "Offline · visto %s": "Desconectado · visto %s",
@@ -1831,6 +1831,5 @@
   "◀ ▶  Sposta": "◀ ▶  Mover",
   "✕ ingrandisci": "✕ ampliar",
   "✕ preferito   □ silenzia": "✕ favorito   □ silenciar",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Nuevos emuladores en la Tienda: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (experimental) y RetroArch con 33 núcleos y EmulationStation.",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "Los zip de apps con la carpeta dentro de otra carpeta ahora se instalan bien, y los archivos de la app tienen los permisos necesarios para arrancar."
+  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "Inicio de juegos más fiable: cuando el sistema responde que el juego ya se está ejecutando, Omega ya no lo cierra para volver a abrirlo. Ese doble inicio podía colgar la consola (CE-108262-9)."
 }

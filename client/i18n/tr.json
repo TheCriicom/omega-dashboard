@@ -203,7 +203,6 @@
   "Amico aggiunto": "Arkadaş eklendi",
   "Amico rimosso": "Arkadaş kaldırıldı",
   "Analisi": "Analiz",
-  "Anche Community, Store, Browser, Installa PKG, Aggiornamenti e App mobile si possono spostare o nascondere; le rimetti in Impostazioni › Home e giochi › App nascoste, e da Ordine della home torni all'ordine automatico.": "Topluluk, Store, Tarayıcı, PKG yükle, Güncellemeler ve Mobil uygulama da taşınabilir veya gizlenebilir; onları Ayarlar › Ana ekran ve oyunlar › Gizli uygulamalar bölümünden geri getirirsin, Ana ekran sıralaması ile de otomatik sıralamaya dönersin.",
   "Anche a console spenta: la web app parla con il server di Omega, come la dash.": "Konsol kapalıyken bile: web uygulaması, tıpkı arayüz gibi Omega sunucusuyla konuşur.",
   "Anche le sottocartelle, in ordine": "Alt klasörler dahil, sırayla",
   "Anche senza JSON": "JSON olmadan da",
@@ -629,6 +628,7 @@
   "Gioco aggiunto alla libreria": "Oyun kütüphaneye eklendi",
   "Gioco cancellato dal disco": "Oyun diskten silindi",
   "Gli homebrew non hanno salvataggi di sistema": "Homebrew uygulamalarının sistem kayıtlı verileri yoktur",
+  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "Uygulama klasörü başka bir klasörün içinde olan uygulama zip'leri artık düzgün kuruluyor ve uygulamanın dosyaları açılmak için gereken izinleri alıyor.",
   "Grandi": "Büyük",
   "Gratis, aperta e nella tua lingua": "Ücretsiz, açık ve Türkçe",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "Teşekkürler! Mesaj geliştiriciye ulaştı",
@@ -1111,13 +1111,13 @@
   "Nuova cartella": "Yeni klasör",
   "Nuova cartella...": "Yeni klasör...",
   "Nuova copertina": "Yeni kapak",
+  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Mağazada yeni emülatörler: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (deneysel) ve 33 çekirdekli, EmulationStation'lı RetroArch.",
   "Nuovo PIN": "Yeni PIN",
   "Nuovo avatar": "Yeni avatar",
   "Nuovo gruppo": "Yeni grup",
   "Nuovo messaggio": "Yeni mesaj",
   "Nuovo nome": "Yeni ad",
   "Nuovo titolo in home": "Ana ekranda yeni oyun",
-  "Nuovo: la home la ordini tu. Dalle opzioni di un gioco, di una cartella o di un'app scegli Cambia posizione e la porti dove vuoi con le frecce (L2 e R2 la mandano in testa o in fondo): le altre tessere le fanno posto. L'ordine resta anche dopo il riavvio.": "Yeni: ana ekranın sıralamasını sen belirliyorsun. Bir oyunun, klasörün veya uygulamanın seçeneklerinden Taşı'yı seç ve ok tuşlarıyla istediğin yere götür (L2 ve R2 onu başa veya sona gönderir): diğer kutucuklar ona yer açar. Sıralama yeniden başlattıktan sonra da korunur.",
   "OK": "Tamam",
   "Offline": "Çevrimdışı",
   "Offline · visto %s": "Çevrimdışı · son görülme %s",
@@ -1831,6 +1831,5 @@
   "◀ ▶  Sposta": "◀ ▶  Taşı",
   "✕ ingrandisci": "✕ büyüt",
   "✕ preferito   □ silenzia": "✕ favori   □ sessize al",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Mağazada yeni emülatörler: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (deneysel) ve 33 çekirdekli, EmulationStation'lı RetroArch.",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "Uygulama klasörü başka bir klasörün içinde olan uygulama zip'leri artık düzgün kuruluyor ve uygulamanın dosyaları açılmak için gereken izinleri alıyor."
+  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "Daha güvenilir oyun başlatma: sistem oyunun zaten çalıştığını söylediğinde Omega artık oyunu yeniden başlatmak için kapatmıyor. Bu çift başlatma konsolun çökmesine neden olabiliyordu (CE-108262-9)."
 }

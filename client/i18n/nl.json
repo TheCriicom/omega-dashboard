@@ -203,7 +203,6 @@
   "Amico aggiunto": "Vriend toegevoegd",
   "Amico rimosso": "Vriend verwijderd",
   "Analisi": "Controleren",
-  "Anche Community, Store, Browser, Installa PKG, Aggiornamenti e App mobile si possono spostare o nascondere; le rimetti in Impostazioni › Home e giochi › App nascoste, e da Ordine della home torni all'ordine automatico.": "Ook Community, Store, Browser, PKG installeren, Updates en Mobiele app kun je verplaatsen of verbergen; je zet ze terug via Instellingen › Home en games › Verborgen apps, en met Volgorde van Home ga je terug naar de automatische volgorde.",
   "Anche a console spenta: la web app parla con il server di Omega, come la dash.": "Ook als de console uit staat: de web-app praat met de Omega-server, net als het dashboard.",
   "Anche le sottocartelle, in ordine": "Ook submappen, op volgorde",
   "Anche senza JSON": "Ook zonder JSON",
@@ -629,6 +628,7 @@
   "Gioco aggiunto alla libreria": "Game toegevoegd aan de bibliotheek",
   "Gioco cancellato dal disco": "Game gewist van de schijf",
   "Gli homebrew non hanno salvataggi di sistema": "Homebrew-apps hebben geen opgeslagen systeemdata",
+  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "App-zips waarbij de app-map in een andere map zit, worden nu goed geïnstalleerd, en de bestanden van de app krijgen de rechten die ze nodig hebben om te starten.",
   "Grandi": "Groot",
   "Gratis, aperta e nella tua lingua": "Gratis, open en in jouw taal",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "Bedankt! Het bericht is bij de ontwikkelaar aangekomen",
@@ -1111,13 +1111,13 @@
   "Nuova cartella": "Nieuwe map",
   "Nuova cartella...": "Nieuwe map...",
   "Nuova copertina": "Nieuwe omslag",
+  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Nieuwe emulators in de Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (experimenteel) en RetroArch met 33 cores en EmulationStation.",
   "Nuovo PIN": "Nieuwe PIN",
   "Nuovo avatar": "Nieuwe avatar",
   "Nuovo gruppo": "Nieuwe groep",
   "Nuovo messaggio": "Nieuw bericht",
   "Nuovo nome": "Nieuwe naam",
   "Nuovo titolo in home": "Nieuwe titel in Home",
-  "Nuovo: la home la ordini tu. Dalle opzioni di un gioco, di una cartella o di un'app scegli Cambia posizione e la porti dove vuoi con le frecce (L2 e R2 la mandano in testa o in fondo): le altre tessere le fanno posto. L'ordine resta anche dopo il riavvio.": "Nieuw: jij bepaalt de volgorde van Home. Kies in de opties van een game, map of app Verplaatsen en zet hem met de pijlen waar je wilt (L2 en R2 sturen hem naar het begin of het einde): de andere tegels maken plaats. De volgorde blijft ook na een herstart bewaard.",
   "OK": "OK",
   "Offline": "Offline",
   "Offline · visto %s": "Offline · gezien %s",
@@ -1831,6 +1831,5 @@
   "◀ ▶  Sposta": "◀ ▶  Verplaatsen",
   "✕ ingrandisci": "✕ vergroten",
   "✕ preferito   □ silenzia": "✕ favoriet   □ dempen",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Nieuwe emulators in de Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (experimenteel) en RetroArch met 33 cores en EmulationStation.",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "App-zips waarbij de app-map in een andere map zit, worden nu goed geïnstalleerd, en de bestanden van de app krijgen de rechten die ze nodig hebben om te starten."
+  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "Betrouwbaarder games starten: als het systeem meldt dat de game al draait, sluit Omega hem niet meer af om hem opnieuw te starten. Die dubbele start kon de console laten crashen (CE-108262-9)."
 }

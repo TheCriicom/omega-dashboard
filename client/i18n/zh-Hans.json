@@ -203,7 +203,6 @@
   "Amico aggiunto": "已添加好友",
   "Amico rimosso": "已删除好友",
   "Analisi": "检查中",
-  "Anche Community, Store, Browser, Installa PKG, Aggiornamenti e App mobile si possono spostare o nascondere; le rimetti in Impostazioni › Home e giochi › App nascoste, e da Ordine della home torni all'ordine automatico.": "社区、商店、浏览器、安装 PKG、更新和移动应用也可以移动或隐藏；可在 设置 › 主页和游戏 › 隐藏的应用 中恢复，并可在 主页排序 中恢复自动排序。",
   "Anche a console spenta: la web app parla con il server di Omega, come la dash.": "主机关机也能用：网页应用和仪表板一样与 Omega 服务器通信。",
   "Anche le sottocartelle, in ordine": "包括子文件夹，按顺序播放",
   "Anche senza JSON": "无需 JSON",
@@ -629,6 +628,7 @@
   "Gioco aggiunto alla libreria": "游戏已添加到游戏库",
   "Gioco cancellato dal disco": "已从磁盘删除游戏",
   "Gli homebrew non hanno salvataggi di sistema": "自制软件没有系统存档",
+  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "应用文件夹位于另一个文件夹内的应用 zip 现在可以正确安装，应用文件也会获得启动所需的权限。",
   "Grandi": "大",
   "Gratis, aperta e nella tua lingua": "免费、开源、支持中文",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "谢谢！消息已送达开发者",
@@ -1111,13 +1111,13 @@
   "Nuova cartella": "新建文件夹",
   "Nuova cartella...": "新建文件夹...",
   "Nuova copertina": "新封面",
+  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "商店新增模拟器：Nintendo 64、PlayStation 1、PlayStation 2、PSP、超级任天堂、Xbox、Xbox 360（实验性）以及带 33 个核心和 EmulationStation 的 RetroArch。",
   "Nuovo PIN": "新 PIN",
   "Nuovo avatar": "新头像",
   "Nuovo gruppo": "新群组",
   "Nuovo messaggio": "新消息",
   "Nuovo nome": "新名称",
   "Nuovo titolo in home": "主页有新项目",
-  "Nuovo: la home la ordini tu. Dalle opzioni di un gioco, di una cartella o di un'app scegli Cambia posizione e la porti dove vuoi con le frecce (L2 e R2 la mandano in testa o in fondo): le altre tessere le fanno posto. L'ordine resta anche dopo il riavvio.": "新功能：主页顺序由你决定。在游戏、文件夹或应用的选项中选择 移动，用方向键把它放到任意位置（L2 和 R2 可将其移到最前或最后），其他图块会自动让位。重新启动后顺序依然保留。",
   "OK": "确定",
   "Offline": "离线",
   "Offline · visto %s": "离线 · 上次在线 %s",
@@ -1831,6 +1831,5 @@
   "◀ ▶  Sposta": "◀ ▶  移动",
   "✕ ingrandisci": "✕ 放大",
   "✕ preferito   □ silenzia": "✕ 特别关注   □ 静音",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "商店新增模拟器：Nintendo 64、PlayStation 1、PlayStation 2、PSP、超级任天堂、Xbox、Xbox 360（实验性）以及带 33 个核心和 EmulationStation 的 RetroArch。",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "应用文件夹位于另一个文件夹内的应用 zip 现在可以正确安装，应用文件也会获得启动所需的权限。"
+  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "游戏启动更可靠：当系统回应游戏已在运行时，Omega 不再关闭游戏后重新启动。这种重复启动可能导致主机崩溃（CE-108262-9）。"
 }

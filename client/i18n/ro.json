@@ -203,7 +203,6 @@
   "Amico aggiunto": "Prieten adăugat",
   "Amico rimosso": "Prieten eliminat",
   "Analisi": "Verificare",
-  "Anche Community, Store, Browser, Installa PKG, Aggiornamenti e App mobile si possono spostare o nascondere; le rimetti in Impostazioni › Home e giochi › App nascoste, e da Ordine della home torni all'ordine automatico.": "Și Comunitate, Store, Browser, Instalează PKG, Actualizări și App mobilă pot fi mutate sau ascunse; le readuci din Setări › Home și jocuri › Aplicații ascunse, iar din Ordinea Home revii la ordinea automată.",
   "Anche a console spenta: la web app parla con il server di Omega, come la dash.": "Chiar și cu consola oprită: aplicația web comunică cu serverul Omega, la fel ca dashboard-ul.",
   "Anche le sottocartelle, in ordine": "Inclusiv subfolderele, în ordine",
   "Anche senza JSON": "Chiar și fără JSON",
@@ -629,6 +628,7 @@
   "Gioco aggiunto alla libreria": "Joc adăugat în bibliotecă",
   "Gioco cancellato dal disco": "Joc șters de pe disc",
   "Gli homebrew non hanno salvataggi di sistema": "Aplicațiile homebrew nu au salvări de sistem",
+  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "Arhivele zip ale aplicațiilor care au folderul aplicației în alt folder se instalează acum corect, iar fișierele aplicației primesc permisiunile necesare ca să pornească.",
   "Grandi": "Mari",
   "Gratis, aperta e nella tua lingua": "Gratuită, deschisă și în română",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "Mulțumim! Mesajul a ajuns la dezvoltator",
@@ -1111,13 +1111,13 @@
   "Nuova cartella": "Folder nou",
   "Nuova cartella...": "Dosar nou...",
   "Nuova copertina": "Copertă nouă",
+  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Emulatoare noi în Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (experimental) și RetroArch cu 33 de nuclee și EmulationStation.",
   "Nuovo PIN": "PIN nou",
   "Nuovo avatar": "Avatar nou",
   "Nuovo gruppo": "Grup nou",
   "Nuovo messaggio": "Mesaj nou",
   "Nuovo nome": "Nume nou",
   "Nuovo titolo in home": "Titlu nou în Home",
-  "Nuovo: la home la ordini tu. Dalle opzioni di un gioco, di una cartella o di un'app scegli Cambia posizione e la porti dove vuoi con le frecce (L2 e R2 la mandano in testa o in fondo): le altre tessere le fanno posto. L'ordine resta anche dopo il riavvio.": "Nou: ordinea din Home o alegi tu. Din opțiunile unui joc, ale unui dosar sau ale unei aplicații alege Mută și du-l unde vrei cu săgețile (L2 și R2 îl trimit la început sau la sfârșit): celelalte plăci îi fac loc. Ordinea rămâne și după repornire.",
   "OK": "OK",
   "Offline": "Offline",
   "Offline · visto %s": "Offline · văzut %s",
@@ -1831,6 +1831,5 @@
   "◀ ▶  Sposta": "◀ ▶  Mută",
   "✕ ingrandisci": "✕ mărește",
   "✕ preferito   □ silenzia": "✕ favorit   □ silențiază",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Emulatoare noi în Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (experimental) și RetroArch cu 33 de nuclee și EmulationStation.",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "Arhivele zip ale aplicațiilor care au folderul aplicației în alt folder se instalează acum corect, iar fișierele aplicației primesc permisiunile necesare ca să pornească."
+  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "Pornirea jocurilor mai sigură: când sistemul răspunde că jocul rulează deja, Omega nu îl mai închide pentru a-l reporni. Această pornire dublă putea bloca consola (CE-108262-9)."
 }

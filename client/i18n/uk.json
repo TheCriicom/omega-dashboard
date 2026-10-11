@@ -203,7 +203,6 @@
   "Amico aggiunto": "Друга додано",
   "Amico rimosso": "Друга видалено",
   "Analisi": "Аналіз",
-  "Anche Community, Store, Browser, Installa PKG, Aggiornamenti e App mobile si possono spostare o nascondere; le rimetti in Impostazioni › Home e giochi › App nascoste, e da Ordine della home torni all'ordine automatico.": "Спільнота, Store, Браузер, Встановлення PKG, Оновлення та Моб. застосунок теж можна переміщувати або приховувати; повернути їх можна в Налаштування › Головний екран та ігри › Приховані застосунки, а через Порядок на головному екрані — повернутися до автоматичного порядку.",
   "Anche a console spenta: la web app parla con il server di Omega, come la dash.": "Навіть коли консоль вимкнена: вебзастосунок працює через сервер Omega, як і дашборд.",
   "Anche le sottocartelle, in ordine": "Разом із вкладеними папками, по черзі",
   "Anche senza JSON": "Можна й без JSON",
@@ -629,6 +628,7 @@
   "Gioco aggiunto alla libreria": "Гру додано до бібліотеки",
   "Gioco cancellato dal disco": "Гру видалено з диска",
   "Gli homebrew non hanno salvataggi di sistema": "Homebrew не має системних збережень",
+  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "Zip-архіви застосунків, де тека застосунку лежить в іншій теці, тепер встановлюються правильно, а файли застосунку отримують потрібні для запуску права.",
   "Grandi": "Великі",
   "Gratis, aperta e nella tua lingua": "Безкоштовно, відкрито й українською",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "Дякуємо! Повідомлення доставлено розробникові",
@@ -1111,13 +1111,13 @@
   "Nuova cartella": "Нова папка",
   "Nuova cartella...": "Нова папка...",
   "Nuova copertina": "Нова обкладинка",
+  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Нові емулятори в магазині: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (експериментальний) і RetroArch з 33 ядрами та EmulationStation.",
   "Nuovo PIN": "Новий PIN",
   "Nuovo avatar": "Новий аватар",
   "Nuovo gruppo": "Нова група",
   "Nuovo messaggio": "Нове повідомлення",
   "Nuovo nome": "Нова назва",
   "Nuovo titolo in home": "Новий елемент на головному екрані",
-  "Nuovo: la home la ordini tu. Dalle opzioni di un gioco, di una cartella o di un'app scegli Cambia posizione e la porti dove vuoi con le frecce (L2 e R2 la mandano in testa o in fondo): le altre tessere le fanno posto. L'ordine resta anche dopo il riavvio.": "Нове: порядок на головному екрані тепер обираєте ви. У параметрах гри, папки чи застосунку виберіть Перемістити й пересуньте плитку стрілками куди потрібно (L2 і R2 відправляють її на початок або в кінець): інші плитки звільнять їй місце. Порядок зберігається й після перезапуску.",
   "OK": "OK",
   "Offline": "Не в мережі",
   "Offline · visto %s": "Не в мережі · %s",
@@ -1831,6 +1831,5 @@
   "◀ ▶  Sposta": "◀ ▶  Перемістити",
   "✕ ingrandisci": "✕ збільшити",
   "✕ preferito   □ silenzia": "✕ обраний   □ вимкнути звук",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Нові емулятори в магазині: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (експериментальний) і RetroArch з 33 ядрами та EmulationStation.",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "Zip-архіви застосунків, де тека застосунку лежить в іншій теці, тепер встановлюються правильно, а файли застосунку отримують потрібні для запуску права."
+  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "Надійніший запуск ігор: коли система відповідає, що гра вже запущена, Omega більше не закриває її для повторного запуску. Такий подвійний запуск міг спричиняти збій консолі (CE-108262-9)."
 }

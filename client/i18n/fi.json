@@ -203,7 +203,6 @@
   "Amico aggiunto": "Kaveri lisätty",
   "Amico rimosso": "Kaveri poistettu",
   "Analisi": "Tarkistetaan",
-  "Anche Community, Store, Browser, Installa PKG, Aggiornamenti e App mobile si possono spostare o nascondere; le rimetti in Impostazioni › Home e giochi › App nascoste, e da Ordine della home torni all'ordine automatico.": "Myös Yhteisö, Store, Selain, Asenna PKG, Päivitykset ja Mobiilisovellus voidaan siirtää tai piilottaa; palautat ne kohdassa Asetukset › Aloitusnäyttö ja pelit › Piilotetut sovellukset, ja kohdasta Aloitusnäytön järjestys palaat automaattiseen järjestykseen.",
   "Anche a console spenta: la web app parla con il server di Omega, come la dash.": "Myös konsolin ollessa sammuksissa: verkkosovellus keskustelee Omegan palvelimen kanssa, aivan kuten dashboard.",
   "Anche le sottocartelle, in ordine": "Myös alikansiot järjestyksessä",
   "Anche senza JSON": "Myös ilman JSONia",
@@ -629,6 +628,7 @@
   "Gioco aggiunto alla libreria": "Peli lisätty kirjastoon",
   "Gioco cancellato dal disco": "Peli poistettu levyltä",
   "Gli homebrew non hanno salvataggi di sistema": "Homebrew-sovelluksilla ei ole järjestelmätallennuksia",
+  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "Sovellus-zipit, joissa sovelluksen kansio on toisen kansion sisällä, asentuvat nyt oikein, ja sovelluksen tiedostot saavat käynnistykseen tarvittavat oikeudet.",
   "Grandi": "Suuret",
   "Gratis, aperta e nella tua lingua": "Ilmainen, avoin ja suomeksi",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "Kiitos! Viesti tavoitti kehittäjän",
@@ -1111,13 +1111,13 @@
   "Nuova cartella": "Uusi kansio",
   "Nuova cartella...": "Uusi kansio...",
   "Nuova copertina": "Uusi kansikuva",
+  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Uusia emulaattoreita Storessa: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (kokeellinen) sekä RetroArch, jossa on 33 corea ja EmulationStation.",
   "Nuovo PIN": "Uusi PIN",
   "Nuovo avatar": "Uusi avatar",
   "Nuovo gruppo": "Uusi ryhmä",
   "Nuovo messaggio": "Uusi viesti",
   "Nuovo nome": "Uusi nimi",
   "Nuovo titolo in home": "Uusi nimike aloitusnäytöllä",
-  "Nuovo: la home la ordini tu. Dalle opzioni di un gioco, di una cartella o di un'app scegli Cambia posizione e la porti dove vuoi con le frecce (L2 e R2 la mandano in testa o in fondo): le altre tessere le fanno posto. L'ordine resta anche dopo il riavvio.": "Uutta: päätät itse aloitusnäytön järjestyksen. Valitse pelin, kansion tai sovelluksen valinnoista Siirrä ja vie se nuolilla minne haluat (L2 ja R2 vievät sen alkuun tai loppuun): muut ruudut tekevät sille tilaa. Järjestys säilyy myös uudelleenkäynnistyksen jälkeen.",
   "OK": "OK",
   "Offline": "Offline",
   "Offline · visto %s": "Offline · nähty %s",
@@ -1831,6 +1831,5 @@
   "◀ ▶  Sposta": "◀ ▶  Siirrä",
   "✕ ingrandisci": "✕ suurenna",
   "✕ preferito   □ silenzia": "✕ suosikki   □ mykistä",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Uusia emulaattoreita Storessa: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (kokeellinen) sekä RetroArch, jossa on 33 corea ja EmulationStation.",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "Sovellus-zipit, joissa sovelluksen kansio on toisen kansion sisällä, asentuvat nyt oikein, ja sovelluksen tiedostot saavat käynnistykseen tarvittavat oikeudet."
+  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "Luotettavampi pelien käynnistys: kun järjestelmä vastaa, että peli on jo käynnissä, Omega ei enää sulje sitä käynnistääkseen sen uudelleen. Tämä kaksoiskäynnistys saattoi kaataa konsolin (CE-108262-9)."
 }

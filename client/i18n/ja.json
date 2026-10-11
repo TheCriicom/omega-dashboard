@@ -203,7 +203,6 @@
   "Amico aggiunto": "フレンドを追加しました",
   "Amico rimosso": "フレンドを削除しました",
   "Analisi": "確認中",
-  "Anche Community, Store, Browser, Installa PKG, Aggiornamenti e App mobile si possono spostare o nascondere; le rimetti in Impostazioni › Home e giochi › App nascoste, e da Ordine della home torni all'ordine automatico.": "コミュニティ、ストア、ブラウザー、PKGインストール、アップデート、モバイルアプリも移動や非表示ができます。設定 › ホームとゲーム › 非表示のアプリ で元に戻せ、ホームの並び順 から自動の並び順に戻せます。",
   "Anche a console spenta: la web app parla con il server di Omega, come la dash.": "本体の電源が切れていてもOK：Webアプリはダッシュボードと同じくOmegaのサーバーと通信します。",
   "Anche le sottocartelle, in ordine": "サブフォルダーも順番に再生",
   "Anche senza JSON": "JSONなしでも",
@@ -629,6 +628,7 @@
   "Gioco aggiunto alla libreria": "ゲームをライブラリーに追加しました",
   "Gioco cancellato dal disco": "ディスクからゲームを削除しました",
   "Gli homebrew non hanno salvataggi di sistema": "homebrewにはシステムのセーブデータがありません",
+  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "アプリのフォルダーが別のフォルダーの中にあるzipも正しくインストールできるようになり、アプリのファイルに起動に必要な権限が付くようになりました。",
   "Grandi": "大",
   "Gratis, aperta e nella tua lingua": "無料、オープン、日本語対応",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "ありがとうございます！メッセージは開発者に届きました",
@@ -1111,13 +1111,13 @@
   "Nuova cartella": "新しいフォルダー",
   "Nuova cartella...": "新しいフォルダー...",
   "Nuova copertina": "新しいカバー画像",
+  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "ストアに新しいエミュレーターを追加：Nintendo 64、PlayStation 1、PlayStation 2、PSP、スーパーファミコン、Xbox、Xbox 360（実験版）、33コアとEmulationStationを備えたRetroArch。",
   "Nuovo PIN": "新しいPIN",
   "Nuovo avatar": "新しいアバター",
   "Nuovo gruppo": "新しいグループ",
   "Nuovo messaggio": "新しいメッセージ",
   "Nuovo nome": "新しい名前",
   "Nuovo titolo in home": "ホームに新しいタイトル",
-  "Nuovo: la home la ordini tu. Dalle opzioni di un gioco, di una cartella o di un'app scegli Cambia posizione e la porti dove vuoi con le frecce (L2 e R2 la mandano in testa o in fondo): le altre tessere le fanno posto. L'ordine resta anche dopo il riavvio.": "新機能：ホームの並び順を自分で決められます。ゲーム、フォルダー、アプリのオプションで 移動 を選び、方向キーで好きな場所へ動かします（L2とR2で先頭または末尾へ）。ほかのタイルが場所を空けます。並び順は再起動後も保持されます。",
   "OK": "OK",
   "Offline": "オフライン",
   "Offline · visto %s": "オフライン · 最終オンライン %s",
@@ -1831,6 +1831,5 @@
   "◀ ▶  Sposta": "◀ ▶  移動",
   "✕ ingrandisci": "✕ 拡大",
   "✕ preferito   □ silenzia": "✕ お気に入り   □ ミュート",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "ストアに新しいエミュレーターを追加：Nintendo 64、PlayStation 1、PlayStation 2、PSP、スーパーファミコン、Xbox、Xbox 360（実験版）、33コアとEmulationStationを備えたRetroArch。",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "アプリのフォルダーが別のフォルダーの中にあるzipも正しくインストールできるようになり、アプリのファイルに起動に必要な権限が付くようになりました。"
+  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "ゲーム起動の安定性を向上：システムが「ゲームはすでに起動中」と応答したとき、Omegaはゲームを終了して再起動しなくなりました。この二重起動でコンソールがクラッシュすることがありました（CE-108262-9）。"
 }

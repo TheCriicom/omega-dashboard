@@ -203,7 +203,6 @@
   "Amico aggiunto": "Venn lagt til",
   "Amico rimosso": "Venn fjernet",
   "Analisi": "Kontrollerer",
-  "Anche Community, Store, Browser, Installa PKG, Aggiornamenti e App mobile si possono spostare o nascondere; le rimetti in Impostazioni › Home e giochi › App nascoste, e da Ordine della home torni all'ordine automatico.": "Også Community, Store, Nettleser, Installer PKG, Oppdateringer og Mobilapp kan flyttes eller skjules; du henter dem tilbake under Innstillinger › Startside og spill › Skjulte apper, og med Startsidens rekkefølge går du tilbake til automatisk rekkefølge.",
   "Anche a console spenta: la web app parla con il server di Omega, come la dash.": "Selv når konsollen er av: nettappen snakker med Omega-serveren, akkurat som dashbordet.",
   "Anche le sottocartelle, in ordine": "Også undermapper, i rekkefølge",
   "Anche senza JSON": "Også uten JSON",
@@ -629,6 +628,7 @@
   "Gioco aggiunto alla libreria": "Spill lagt til i biblioteket",
   "Gioco cancellato dal disco": "Spillet er slettet fra disken",
   "Gli homebrew non hanno salvataggi di sistema": "Homebrew har ikke systemlagrede data",
+  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "App-zip-filer der app-mappen ligger i en annen mappe, installeres nå riktig, og appens filer får tillatelsene de trenger for å starte.",
   "Grandi": "Store",
   "Gratis, aperta e nella tua lingua": "Gratis, åpen og på norsk",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "Takk! Meldingen har kommet fram til utvikleren",
@@ -1111,13 +1111,13 @@
   "Nuova cartella": "Ny mappe",
   "Nuova cartella...": "Ny mappe...",
   "Nuova copertina": "Nytt forsidebilde",
+  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Nye emulatorer i Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (eksperimentell) og RetroArch med 33 kjerner og EmulationStation.",
   "Nuovo PIN": "Ny PIN",
   "Nuovo avatar": "Ny avatar",
   "Nuovo gruppo": "Ny gruppe",
   "Nuovo messaggio": "Ny melding",
   "Nuovo nome": "Nytt navn",
   "Nuovo titolo in home": "Ny tittel på startsiden",
-  "Nuovo: la home la ordini tu. Dalle opzioni di un gioco, di una cartella o di un'app scegli Cambia posizione e la porti dove vuoi con le frecce (L2 e R2 la mandano in testa o in fondo): le altre tessere le fanno posto. L'ordine resta anche dopo il riavvio.": "Nytt: du bestemmer rekkefølgen på startsiden. Velg Flytt i alternativene for et spill, en mappe eller en app, og flytt den dit du vil med pilene (L2 og R2 sender den først eller sist): de andre flisene gjør plass til den. Rekkefølgen beholdes også etter omstart.",
   "OK": "OK",
   "Offline": "Frakoblet",
   "Offline · visto %s": "Frakoblet · sett %s",
@@ -1831,6 +1831,5 @@
   "◀ ▶  Sposta": "◀ ▶  Flytt",
   "✕ ingrandisci": "✕ forstørr",
   "✕ preferito   □ silenzia": "✕ favoritt   □ demp",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Nye emulatorer i Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (eksperimentell) og RetroArch med 33 kjerner og EmulationStation.",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "App-zip-filer der app-mappen ligger i en annen mappe, installeres nå riktig, og appens filer får tillatelsene de trenger for å starte."
+  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "Mer pålitelig spillstart: når systemet svarer at spillet allerede kjører, lukker ikke Omega det lenger for å starte det på nytt. Den doble starten kunne få konsollen til å krasje (CE-108262-9)."
 }
