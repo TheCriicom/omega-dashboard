@@ -628,7 +628,6 @@
   "Gioco aggiunto alla libreria": "게임이 라이브러리에 추가되었습니다",
   "Gioco cancellato dal disco": "디스크에서 게임을 삭제했습니다",
   "Gli homebrew non hanno salvataggi di sistema": "홈브루에는 시스템 저장 데이터가 없습니다",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "앱 폴더가 다른 폴더 안에 있는 앱 zip도 이제 제대로 설치되며, 앱 파일에 실행에 필요한 권한이 부여됩니다.",
   "Grandi": "크게",
   "Gratis, aperta e nella tua lingua": "무료, 오픈 소스, 한국어 지원",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "감사합니다! 메시지가 개발자에게 전달되었습니다",
@@ -878,6 +877,7 @@
   "La forma di schede, pulsanti e icone.": "카드, 버튼, 아이콘의 모양.",
   "La libreria è sulla console": "라이브러리는 본체에 있습니다",
   "La mia libreria": "내 라이브러리",
+  "La mia libreria è per i tuoi backup personali e ora legge solo il formato di Omega: le liste di cataloghi di altri programmi non si importano più.": "내 라이브러리는 개인 백업용이며 이제 Omega 형식만 읽습니다. 다른 프로그램의 카탈로그 목록은 더 이상 가져올 수 없습니다.",
   "La musica generata della home, quando non ascolti altro.": "다른 것을 듣지 않을 때 흐르는 홈의 생성 음악.",
   "La pagina si aggiorna quando la riapri": "페이지를 다시 열면 새로 고쳐집니다",
   "La password deve avere almeno 8 caratteri": "비밀번호는 8자 이상이어야 합니다",
@@ -1111,7 +1111,6 @@
   "Nuova cartella": "새 폴더",
   "Nuova cartella...": "새 폴더...",
   "Nuova copertina": "새 커버",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "스토어에 새 에뮬레이터 추가: Nintendo 64, PlayStation 1, PlayStation 2, PSP, 슈퍼 패미컴, Xbox, Xbox 360(실험적), 33개 코어와 EmulationStation을 갖춘 RetroArch.",
   "Nuovo PIN": "새 PIN",
   "Nuovo avatar": "새 아바타",
   "Nuovo gruppo": "새 그룹",
@@ -1131,6 +1130,7 @@
   "Omega blu": "Omega 블루",
   "Omega come Home": "Omega를 홈으로",
   "Omega come Home?": "Omega를 홈으로 사용할까요?",
+  "Omega non ha alcun legame con Overdrive né con altri store di giochi pirata: non contiene, non elenca e non scarica giochi commerciali. Lo Store ha solo homebrew open source.": "Omega는 Overdrive나 다른 불법 게임 스토어와 아무런 관련이 없습니다. 상용 게임을 포함하거나 목록으로 보여 주거나 다운로드하지 않습니다. 스토어에는 오픈 소스 홈브루만 있습니다.",
   "Omega non risponde": "Omega가 응답하지 않습니다",
   "Omega resta un'app: la apri tu da websrv quando vuoi": "Omega는 앱으로 유지됩니다: 필요할 때 websrv에서 여세요",
   "Omega sarà la tua Home: si apre all'avvio e quando torni alla Home": "Omega가 홈이 됩니다: 시작할 때와 홈으로 돌아갈 때 열립니다",
@@ -1830,6 +1830,5 @@
   "▲ ▼  Sposta": "▲ ▼  이동",
   "◀ ▶  Sposta": "◀ ▶  이동",
   "✕ ingrandisci": "✕ 확대",
-  "✕ preferito   □ silenzia": "✕ 즐겨찾기   □ 음소거",
-  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "게임 실행 안정성 향상: 시스템이 게임이 이미 실행 중이라고 응답하면 Omega가 더 이상 게임을 종료하고 다시 실행하지 않습니다. 이 이중 실행 때문에 콘솔이 다운될 수 있었습니다(CE-108262-9)."
+  "✕ preferito   □ silenzia": "✕ 즐겨찾기   □ 음소거"
 }

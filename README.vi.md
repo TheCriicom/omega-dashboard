@@ -27,6 +27,10 @@ khi bạn chơi game, và bạn bè luôn ở ngay trong tầm tay. Omega chạy
 homebrew (SDL2, kết xuất bằng phần mềm) và kết nối với một máy chủ mà ai cũng có
 thể tự vận hành.
 
+## Không vi phạm bản quyền
+
+Omega không có bất kỳ liên hệ nào với Overdrive hay các bản fork của nó và không dùng chung mã nguồn với chúng. Omega không chứa, không liệt kê và không tải xuống trò chơi thương mại: Cửa hàng chỉ có homebrew mã nguồn mở, còn Thư viện của tôi dành cho bản sao lưu cá nhân của bạn và không đọc danh mục trò chơi của người khác. Các phiên bản Omega bị sửa đổi để phát tán trò chơi không phải của chúng tôi: hãy báo cho chúng tôi.
+
 ## Có gì bên trong
 
 - **Home** gộp trò chơi và homebrew, hình nền động lấy từ artwork, khởi chạy

@@ -28,6 +28,10 @@ selalu dapat dijangkau dengan sekali tekan. Omega berjalan sebagai homebrew
 (SDL2, perender perangkat lunak) dan terhubung ke server yang dapat di-host oleh
 siapa saja.
 
+## Tanpa pembajakan
+
+Omega sama sekali tidak terkait dengan Overdrive maupun fork-nya dan tidak berbagi kode dengan mereka. Omega tidak berisi, tidak mencantumkan, dan tidak mengunduh game komersial: Toko hanya berisi homebrew sumber terbuka, dan Pustakaku untuk cadangan pribadimu sendiri, tanpa membaca katalog game milik orang lain. Versi Omega yang dimodifikasi untuk menyebarkan game bukan milik kami: laporkan kepada kami.
+
 ## Isinya
 
 - **Home** dengan game dan homebrew berdampingan, latar belakang dinamis dari

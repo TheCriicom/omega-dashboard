@@ -27,6 +27,10 @@ departe cât timp joci, iar prietenii sunt mereu la o apăsare distanță. Rulea
 ca homebrew (SDL2, randare software) și comunică cu un server pe care îl poate
 găzdui oricine.
 
+## Fără piraterie
+
+Omega nu are nicio legătură cu Overdrive sau cu fork-urile sale și nu împarte cod cu ele. Nu conține, nu listează și nu descarcă jocuri comerciale: Magazinul are doar homebrew open source, iar Biblioteca mea este pentru propriile tale copii de rezervă personale, fără a citi cataloagele de jocuri ale altora. Versiunile Omega modificate pentru a distribui jocuri nu sunt ale noastre: semnalează-ni-le.
+
 ## Ce conține
 
 - **Home** cu jocuri și homebrew împreună, fundaluri dinamice generate din

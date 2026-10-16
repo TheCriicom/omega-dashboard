@@ -27,6 +27,10 @@ jogas e os teus amigos estão sempre à distância de um clique. Corre como
 homebrew (SDL2, renderizador por software) e comunica com um servidor que
 qualquer pessoa pode alojar.
 
+## Sem pirataria
+
+O Omega não tem qualquer ligação ao Overdrive nem aos seus forks e não partilha código com eles. Não contém, não lista e não descarrega jogos comerciais: a Loja tem apenas homebrew de código aberto, e A minha biblioteca serve para as tuas cópias de segurança pessoais, sem ler catálogos de jogos de terceiros. As versões do Omega modificadas para distribuir jogos não são nossas: comunica-nos se as encontrares.
+
 ## O que inclui
 
 - **Home** com jogos e homebrew juntos, fundos dinâmicos a partir da arte,

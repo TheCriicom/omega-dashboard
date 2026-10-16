@@ -26,6 +26,10 @@ durur, Store tek tuşla kurulum yapar, oyun oynarken müzik çalmaya devam eder 
 arkadaşların her zaman bir tuş uzağındadır. Homebrew olarak çalışır (SDL2,
 yazılımsal oluşturucu) ve herkesin barındırabileceği bir sunucuyla konuşur.
 
+## Korsanlık yok
+
+Omega'nın Overdrive ya da onun fork'larıyla hiçbir bağlantısı yoktur ve onlarla kod paylaşmaz. Ticari oyun içermez, listelemez ve indirmez: Mağaza'da yalnızca açık kaynaklı homebrew'lar vardır, Kitaplığım ise kendi kişisel yedeklerin içindir ve başkalarının oyun kataloglarını okumaz. Oyun dağıtmak için değiştirilmiş Omega sürümleri bize ait değildir: lütfen bize bildir.
+
 ## Neler var
 
 - Oyunları ve homebrew'ları bir arada gösteren **Home**; görsellerden üretilen

@@ -628,7 +628,6 @@
   "Gioco aggiunto alla libreria": "Гру додано до бібліотеки",
   "Gioco cancellato dal disco": "Гру видалено з диска",
   "Gli homebrew non hanno salvataggi di sistema": "Homebrew не має системних збережень",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "Zip-архіви застосунків, де тека застосунку лежить в іншій теці, тепер встановлюються правильно, а файли застосунку отримують потрібні для запуску права.",
   "Grandi": "Великі",
   "Gratis, aperta e nella tua lingua": "Безкоштовно, відкрито й українською",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "Дякуємо! Повідомлення доставлено розробникові",
@@ -878,6 +877,7 @@
   "La forma di schede, pulsanti e icone.": "Форма карток, кнопок і значків.",
   "La libreria è sulla console": "Бібліотека зберігається на консолі",
   "La mia libreria": "Моя бібліотека",
+  "La mia libreria è per i tuoi backup personali e ora legge solo il formato di Omega: le liste di cataloghi di altri programmi non si importano più.": "«Моя бібліотека» призначена для ваших особистих резервних копій і тепер читає лише формат Omega: списки каталогів з інших програм більше не імпортуються.",
   "La musica generata della home, quando non ascolti altro.": "Згенерована музика головного екрана, коли ви нічого не слухаєте.",
   "La pagina si aggiorna quando la riapri": "Сторінка оновиться, коли ви відкриєте її знову",
   "La password deve avere almeno 8 caratteri": "Пароль має містити щонайменше 8 символів",
@@ -1111,7 +1111,6 @@
   "Nuova cartella": "Нова папка",
   "Nuova cartella...": "Нова папка...",
   "Nuova copertina": "Нова обкладинка",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Нові емулятори в магазині: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (експериментальний) і RetroArch з 33 ядрами та EmulationStation.",
   "Nuovo PIN": "Новий PIN",
   "Nuovo avatar": "Новий аватар",
   "Nuovo gruppo": "Нова група",
@@ -1131,6 +1130,7 @@
   "Omega blu": "Omega синій",
   "Omega come Home": "Omega як головний екран",
   "Omega come Home?": "Omega як головний екран?",
+  "Omega non ha alcun legame con Overdrive né con altri store di giochi pirata: non contiene, non elenca e non scarica giochi commerciali. Lo Store ha solo homebrew open source.": "Omega ніяк не пов'язаний з Overdrive та іншими піратськими магазинами ігор: він не містить, не показує і не завантажує комерційні ігри. У Магазині лише homebrew з відкритим кодом.",
   "Omega non risponde": "Omega не відповідає",
   "Omega resta un'app: la apri tu da websrv quando vuoi": "Omega залишається застосунком: відкривайте його з websrv, коли захочете",
   "Omega sarà la tua Home: si apre all'avvio e quando torni alla Home": "Omega стане вашим головним екраном: відкриватиметься під час запуску й під час повернення на головний екран",
@@ -1830,6 +1830,5 @@
   "▲ ▼  Sposta": "▲ ▼  Перемістити",
   "◀ ▶  Sposta": "◀ ▶  Перемістити",
   "✕ ingrandisci": "✕ збільшити",
-  "✕ preferito   □ silenzia": "✕ обраний   □ вимкнути звук",
-  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "Надійніший запуск ігор: коли система відповідає, що гра вже запущена, Omega більше не закриває її для повторного запуску. Такий подвійний запуск міг спричиняти збій консолі (CE-108262-9)."
+  "✕ preferito   □ silenzia": "✕ обраний   □ вимкнути звук"
 }

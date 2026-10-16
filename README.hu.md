@@ -27,6 +27,10 @@ játék közben is szól, a barátaid pedig mindig karnyújtásnyira vannak.
 Homebrew-ként fut (SDL2, szoftveres renderelés), és egy olyan szerverrel
 kommunikál, amelyet bárki üzemeltethet.
 
+## Nincs kalózkodás
+
+Az Omegának semmi köze az Overdrive-hoz vagy annak forkjaihoz, és nem oszt meg velük kódot. Nem tartalmaz, nem listáz és nem tölt le kereskedelmi játékokat: az Áruházban csak nyílt forráskódú homebrew van, a Saját könyvtár pedig a saját személyes biztonsági mentéseidre szolgál, és nem olvas be mások játékkatalógusait. Az Omega játékok terjesztésére módosított változatai nem a mieink: kérjük, jelentsd őket nekünk.
+
 ## Mit tartalmaz
 
 - **Home** a játékokkal és homebrew-kkal együtt, a borítóképekből készülő

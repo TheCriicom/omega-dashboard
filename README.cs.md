@@ -26,6 +26,10 @@ v jedné řadě, Store instaluje jedním tlačítkem, hudba hraje dál i při hr
 přátelé jsou vždy na dosah. Běží jako homebrew (SDL2, softwarové vykreslování)
 a komunikuje se serverem, který může provozovat kdokoli.
 
+## Žádné pirátství
+
+Omega nemá žádné spojení s Overdrive ani s jeho forky a nesdílí s nimi žádný kód. Neobsahuje, nevypisuje ani nestahuje komerční hry: v Obchodě je jen open-source homebrew a Moje knihovna slouží pro tvé vlastní osobní zálohy, aniž by četla cizí katalogy her. Verze Omegy upravené k šíření her nejsou naše: nahlas nám je.
+
 ## Co obsahuje
 
 - **Home** s hrami i homebrew pohromadě, dynamickými pozadími z obrázků her a

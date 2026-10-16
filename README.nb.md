@@ -27,6 +27,10 @@ mens du spiller, og vennene dine er alltid bare ett trykk unna. Omega kjører so
 homebrew (SDL2, programvarerenderer) og kommuniserer med en server som hvem
 som helst kan drifte.
 
+## Ingen piratkopiering
+
+Omega har ingen forbindelse til Overdrive eller forkene av det og deler ingen kode med dem. Det inneholder, viser og laster ikke ned kommersielle spill: Butikken har bare homebrew med åpen kildekode, og Mitt bibliotek er for dine egne personlige sikkerhetskopier og leser ikke andres spillkataloger. Versjoner av Omega som er endret for å spre spill, er ikke våre: rapporter dem til oss.
+
 ## Hva som er inkludert
 
 - **Home** med spill og homebrew samlet, dynamiske bakgrunner fra

@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026.10.16.1
+
+- **No piracy**: Omega has no connection with Overdrive, its forks or any other
+  game piracy store, and shares no code with them. It does not contain, list or
+  download commercial games; the Store only offers open-source homebrew. This is
+  now stated in the README (all 27 languages), on the website (new FAQ and
+  footer) and in the app's "What's new" window.
+- **My library reads only Omega's format**: an array or `{"items":[...]}` with
+  `title`, `url` and the optional fields documented in `daemon/README.md`.
+  Third-party catalogue lists (FPKGi and similar, `pkg_url`/`content_id` lists)
+  are no longer imported: the library is for your own personal backups.
+- The repository is now `TheCriicom/omega-dashboard` (the old address
+  redirects).
+
 ## 2026.10.11.1
 
 - **Game launch**: when the system answers a launch with "already running"

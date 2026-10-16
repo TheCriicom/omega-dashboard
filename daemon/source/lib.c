@@ -65,7 +65,7 @@ static int has_any(JVal *o, const char *const *keys) {
 
 // "45 GB", "1.2GB", "700 MB", "123456" o un numero → byte
 static double size_of(JVal *o) {
-  static const char *const K[] = { "size", "size_bytes", "filesize", "file_size", "pkg_size", "Size", NULL };
+  static const char *const K[] = { "size", NULL };
   for (int i = 0; K[i]; i++) {
     JVal *v = jget(o, K[i]); if (!v) continue;
     if (v->t == J_NUM) return v->n > 0 ? v->n : 0;
@@ -80,37 +80,32 @@ static double size_of(JVal *o) {
   return 0;
 }
 
-// CUSA12345, anche dentro un Content ID (UP0001-CUSA12345_00-NOMEGIOCO0000000)
+// CUSA12345
 static int tid_ok(const char *t) {
   for (int i = 0; i < 9; i++) if (!(i < 4 ? isalpha((unsigned char)t[i]) : isdigit((unsigned char)t[i]))) return 0;
   return 1;
 }
 static void tid_from(JVal *o, char *out, size_t on) {
-  static const char *const K_TID[] = { "title_id", "titleId", "titleID", "TITLE_ID", "tid", "TitleId", NULL };
-  static const char *const K_CID[] = { "content_id", "contentId", "contentID", "CONTENT_ID", "cid", NULL };
+  static const char *const K_TID[] = { "title_id", NULL };
   out[0] = 0;
   const char *t = first(o, K_TID);
-  if (strlen(t) >= 9 && tid_ok(t)) { snprintf(out, on, "%.9s", t); }
-  else {
-    const char *c = first(o, K_CID);
-    if (strlen(c) >= 16 && c[6] == '-' && tid_ok(c + 7)) snprintf(out, on, "%.9s", c + 7);
-  }
+  if (strlen(t) >= 9 && tid_ok(t)) snprintf(out, on, "%.9s", t);
   for (char *p = out; *p; p++) *p = (char)toupper((unsigned char)*p);
 }
 
-// un elemento da JSON (manuale o importato); 0 = valido. I nomi dei campi sono
-// quelli dei formati che girano nella scena: il nostro, FPKGi, DPI di etaHEN,
-// le liste di pkg (pkg_url, icon_url, content_id...).
-static const char *const K_TITLE[] = { "title", "name", "content_name", "titleName", "title_name", "game", "Name", "Title", NULL };
-static const char *const K_URL[] = { "url", "pkg_url", "download_url", "downloadUrl", "download", "download_link", "file", "pkg", "link", "uri", "PKG_URL", "Url", NULL };
-static const char *const K_COVER[] = { "cover", "cover_url", "coverUrl", "icon_url", "iconUrl", "image", "image_url", "icon", "icon0", "thumbnail", "art", NULL };
-static const char *const K_DESC[] = { "description", "desc", "text", "notes", NULL };
-static const char *const K_VER[] = { "version", "ver", "app_ver", "Version", NULL };
-static const char *const K_PLAT[] = { "platform", "plat", "system", "console", NULL };
-static const char *const K_KIND[] = { "type", "kind", "file_kind", NULL };
-static const char *const K_SIZE[] = { "size", "size_bytes", "filesize", "file_size", "pkg_size", "Size", NULL };
+// un elemento da JSON (manuale o importato); 0 = valido. Solo il formato di
+// Omega (README del demone): la libreria è per i propri backup, non legge le
+// liste di cataloghi che girano nella scena.
+static const char *const K_TITLE[] = { "title", "name", NULL };
+static const char *const K_URL[] = { "url", "download", "link", NULL };
+static const char *const K_COVER[] = { "cover", "image", NULL };
+static const char *const K_DESC[] = { "description", NULL };
+static const char *const K_VER[] = { "version", NULL };
+static const char *const K_PLAT[] = { "platform", NULL };
+static const char *const K_KIND[] = { "type", NULL };
+static const char *const K_SIZE[] = { "size", NULL };
 static const char *const K_SHOTS[] = { "screenshots", "images", NULL };
-static const char *const K_TIDS[] = { "title_id", "titleId", "titleID", "TITLE_ID", "tid", "TitleId", "content_id", "contentId", "contentID", "CONTENT_ID", "cid", NULL };
+static const char *const K_TIDS[] = { "title_id", NULL };
 
 static int item_from(Item *it, JVal *o, const char *origin, int idx) {
   memset(it, 0, sizeof *it);
@@ -133,25 +128,6 @@ static int item_from(Item *it, JVal *o, const char *origin, int idx) {
   if (ext && *ext) snprintf(it->id, sizeof it->id, "%c%.30s", origin[0], ext);
   else snprintf(it->id, sizeof it->id, "%c%08x", origin[0], fnv(it->url));   // stabile: non cambia se la lista cambia ordine
   (void)idx;
-  return 0;
-}
-
-// come item_from, ma con l'URL dato da fuori (FPKGi lo mette nella chiave)
-static int item_with_url(Item *it, JVal *o, const char *url, const char *origin) {
-  if (item_from(it, o, origin, 0) == 0) return 0;                 // c'era anche un url dentro
-  memset(it, 0, sizeof *it);
-  snprintf(it->title, sizeof it->title, "%s", first(o, K_TITLE));
-  snprintf(it->url, sizeof it->url, "%s", url);
-  if (!it->title[0] || !is_http(it->url)) return -1;
-  const char *cv = first(o, K_COVER); if (is_http(cv)) snprintf(it->cover, sizeof it->cover, "%s", cv);
-  snprintf(it->desc, sizeof it->desc, "%s", first(o, K_DESC));
-  snprintf(it->version, sizeof it->version, "%s", first(o, K_VER));
-  tid_from(o, it->title_id, sizeof it->title_id);
-  if (it->title_id[0]) snprintf(it->platform, sizeof it->platform, "%s", !strncmp(it->title_id, "PPSA", 4) ? "PS5" : "PS4");
-  kind_of(first(o, K_KIND), it->url, it->kind, sizeof it->kind);
-  it->size = size_of(o);
-  snprintf(it->origin, sizeof it->origin, "%s", origin);
-  snprintf(it->id, sizeof it->id, "%c%08x", origin[0], fnv(it->url));
   return 0;
 }
 
@@ -346,20 +322,13 @@ void lib_last_import(int *added, int *updated, int *skipped) {
   pthread_mutex_lock(&mx); *added = last_added; *updated = last_updated; *skipped = last_skipped; pthread_mutex_unlock(&mx);
 }
 
-// L'elenco dei giochi dentro un JSON qualsiasi: un array; un oggetto con
-// items/games/library/packages/pkgs/list/apps/content/data; FPKGi, cioè
-// {"DATA":{"<url>":{...}}} con l'URL come chiave; un oggetto solo.
-static JVal *list_of(JVal *j, int *keyed) {
-  static const char *const K[] = { "items", "games", "library", "packages", "pkgs", "list", "apps", "content", "entries", "DATA", "data", "Data", NULL };
-  *keyed = 0;
+// L'elenco dei giochi: un array, {"items":[...]} ({"games"}) o un gioco solo.
+static JVal *list_of(JVal *j) {
   if (!j) return NULL;
   if (j->t == J_ARR) return j;
   if (j->t != J_OBJ) return NULL;
-  for (int i = 0; K[i]; i++) {
-    JVal *v = jget(j, K[i]);
-    if (v && v->t == J_ARR) return v;
-    if (v && v->t == J_OBJ && v->child && v->child->t == J_OBJ) { *keyed = 1; return v; }   // FPKGi
-  }
+  JVal *v = jget(j, "items"); if (!v) v = jget(j, "games");
+  if (v && v->t == J_ARR) return v;
   if (*first(j, K_URL) || *first(j, K_TITLE)) return j;   // un gioco solo
   return NULL;
 }
@@ -383,8 +352,7 @@ static int import_buf(const char *buf, int replace_json, const char *origin, cha
 }
 static int import_val(JVal *j, int replace_json, const char *origin, char *err, size_t en) {
   if (!items) { snprintf(err, en, "starting"); return -1; }
-  int keyed = 0;
-  JVal *arr = list_of(j, &keyed);
+  JVal *arr = list_of(j);
   if (!arr) { snprintf(err, en, "no_items"); return -1; }
   // prima si leggono tutte le voci, poi si tocca la libreria
   int cap = MAX_ITEMS, nv = 0, skipped = 0, idx = 0;
@@ -394,11 +362,7 @@ static int import_val(JVal *j, int replace_json, const char *origin, char *err, 
   else JFOR(o, arr) {
     if (nv >= cap) { skipped++; continue; }
     Item *it = &val[nv];
-    int ok;
-    if (keyed && o->key && is_http(o->key) && o->t == J_OBJ && !*first(o, K_URL)) {
-      // FPKGi: l'URL è la chiave dell'oggetto, i dati sono dentro
-      ok = item_with_url(it, o, o->key, origin) == 0;
-    } else ok = item_from(it, o, origin, idx) == 0;
+    int ok = item_from(it, o, origin, idx) == 0;
     idx++;
     if (ok) nv++; else skipped++;
   }
@@ -422,7 +386,7 @@ static int import_val(JVal *j, int replace_json, const char *origin, char *err, 
 }
 
 int lib_import(JVal *body, char *err, size_t en) {
-  // {"json":"<testo>"} dal telefono, oppure il JSON stesso ({"items":[...]}, FPKGi...)
+  // {"json":"<testo>"} dal telefono, oppure il JSON stesso ({"items":[...]})
   const char *txt = jstr(body, "json", NULL);
   if (txt && *txt) return import_buf(txt, 0, "import", err, en);
   return import_val(body, 0, "import", err, en);

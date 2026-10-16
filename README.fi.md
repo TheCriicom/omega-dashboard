@@ -27,6 +27,10 @@ musiikki jatkaa soimistaan pelatessasi ja kaverit ovat aina yhden napinpainalluk
 päässä. Omega toimii homebrew-ohjelmana (SDL2, ohjelmistorenderöijä) ja keskustelee
 palvelimen kanssa, jota kuka tahansa voi ylläpitää.
 
+## Ei piratismia
+
+Omegalla ei ole mitään yhteyttä Overdriveen tai sen forkkeihin, eikä se jaa niiden kanssa koodia. Se ei sisällä, listaa eikä lataa kaupallisia pelejä: Kaupassa on vain avoimen lähdekoodin homebrew-ohjelmia, ja Oma kirjasto on omille henkilökohtaisille varmuuskopioillesi, eikä se lue muiden pelikatalogeja. Pelien levittämiseen muokatut Omegan versiot eivät ole meidän: ilmoita niistä meille.
+
 ## Mitä sisältä löytyy
 
 - **Home**, jossa pelit ja homebrew-ohjelmat ovat yhdessä, kansikuvista luodut

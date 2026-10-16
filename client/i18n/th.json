@@ -628,7 +628,6 @@
   "Gioco aggiunto alla libreria": "เพิ่มเกมลงในคลังแล้ว",
   "Gioco cancellato dal disco": "ลบเกมออกจากดิสก์แล้ว",
   "Gli homebrew non hanno salvataggi di sistema": "homebrew ไม่มีข้อมูลเซฟของระบบ",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "ไฟล์ zip ของแอปที่มีโฟลเดอร์แอปอยู่ในอีกโฟลเดอร์หนึ่งติดตั้งได้ถูกต้องแล้ว และไฟล์ของแอปได้รับสิทธิ์ที่จำเป็นในการเปิด",
   "Grandi": "ใหญ่",
   "Gratis, aperta e nella tua lingua": "ฟรี เปิดกว้าง และมีภาษาไทย",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "ขอบคุณ! ข้อความถึงผู้พัฒนาแล้ว",
@@ -878,6 +877,7 @@
   "La forma di schede, pulsanti e icone.": "รูปร่างของการ์ด ปุ่ม และไอคอน",
   "La libreria è sulla console": "คลังอยู่บนเครื่อง",
   "La mia libreria": "คลังของฉัน",
+  "La mia libreria è per i tuoi backup personali e ora legge solo il formato di Omega: le liste di cataloghi di altri programmi non si importano più.": "คลังของฉันมีไว้สำหรับข้อมูลสำรองส่วนตัวของคุณ และตอนนี้อ่านเฉพาะรูปแบบของ Omega รายการแคตตาล็อกจากโปรแกรมอื่นนำเข้าไม่ได้อีกต่อไป",
   "La musica generata della home, quando non ascolti altro.": "เพลงที่สร้างขึ้นของหน้าหลัก เมื่อคุณไม่ได้ฟังอย่างอื่น",
   "La pagina si aggiorna quando la riapri": "หน้านี้จะอัปเดตเมื่อคุณเปิดอีกครั้ง",
   "La password deve avere almeno 8 caratteri": "รหัสผ่านต้องมีอย่างน้อย 8 ตัวอักษร",
@@ -1111,7 +1111,6 @@
   "Nuova cartella": "โฟลเดอร์ใหม่",
   "Nuova cartella...": "โฟลเดอร์ใหม่...",
   "Nuova copertina": "ภาพปกใหม่",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "อีมูเลเตอร์ใหม่ใน Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (ทดลอง) และ RetroArch พร้อม 33 คอร์และ EmulationStation",
   "Nuovo PIN": "PIN ใหม่",
   "Nuovo avatar": "อวตารใหม่",
   "Nuovo gruppo": "กลุ่มใหม่",
@@ -1131,6 +1130,7 @@
   "Omega blu": "Omega สีน้ำเงิน",
   "Omega come Home": "Omega เป็นหน้าหลัก",
   "Omega come Home?": "ใช้ Omega เป็นหน้าหลักไหม?",
+  "Omega non ha alcun legame con Overdrive né con altri store di giochi pirata: non contiene, non elenca e non scarica giochi commerciali. Lo Store ha solo homebrew open source.": "Omega ไม่มีความเกี่ยวข้องใดๆ กับ Overdrive หรือร้านเกมละเมิดลิขสิทธิ์อื่นๆ ไม่มี ไม่แสดงรายการ และไม่ดาวน์โหลดเกมเชิงพาณิชย์ ร้านค้ามีเพียง homebrew โอเพนซอร์ส",
   "Omega non risponde": "Omega ไม่ตอบสนอง",
   "Omega resta un'app: la apri tu da websrv quando vuoi": "Omega ยังคงเป็นแอป: เปิดจาก websrv ได้ทุกเมื่อที่ต้องการ",
   "Omega sarà la tua Home: si apre all'avvio e quando torni alla Home": "Omega จะเป็นหน้าหลักของคุณ: เปิดขึ้นเมื่อเริ่มเครื่องและเมื่อกลับไปหน้าหลัก",
@@ -1830,6 +1830,5 @@
   "▲ ▼  Sposta": "▲ ▼  ย้าย",
   "◀ ▶  Sposta": "◀ ▶  ย้าย",
   "✕ ingrandisci": "✕ ขยาย",
-  "✕ preferito   □ silenzia": "✕ รายการโปรด   □ ปิดเสียง",
-  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "เปิดเกมได้เสถียรขึ้น: เมื่อระบบตอบว่าเกมกำลังทำงานอยู่แล้ว Omega จะไม่ปิดเกมเพื่อเปิดใหม่อีกต่อไป การเปิดซ้ำนี้อาจทำให้คอนโซลแครชได้ (CE-108262-9)"
+  "✕ preferito   □ silenzia": "✕ รายการโปรด   □ ปิดเสียง"
 }

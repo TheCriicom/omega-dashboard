@@ -1834,11 +1834,6 @@
     ],
     "hint": "printf format: keep exactly these specifiers in this order: s"
   },
-  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": {
-    "where": [
-      "omega-ui-src/source/whatsnew.c:14"
-    ]
-  },
   "Avvio del servizio degli aggiornamenti...": {
     "where": [
       "omega-ui-src/source/gameupd.c:232"
@@ -4257,11 +4252,6 @@
     ],
     "hint": "one-line message at the bottom of the screen"
   },
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": {
-    "where": [
-      "omega-ui-src/source/whatsnew.c:16"
-    ]
-  },
   "Grandi": {
     "where": [
       "omega-ui-src/source/prefs.c:40"
@@ -4434,7 +4424,7 @@
   "Ho capito": {
     "where": [
       "omega-ui-src/source/storage.c:326",
-      "omega-ui-src/source/whatsnew.c:59"
+      "omega-ui-src/source/whatsnew.c:58"
     ],
     "kind": [
       "confirm",
@@ -5925,6 +5915,11 @@
   "La mia libreria": {
     "where": [
       "omega-ui-src/source/store.c:1039"
+    ]
+  },
+  "La mia libreria è per i tuoi backup personali e ora legge solo il formato di Omega: le liste di cataloghi di altri programmi non si importano più.": {
+    "where": [
+      "omega-ui-src/source/whatsnew.c:15"
     ]
   },
   "La musica generata della home, quando non ascolti altro.": {
@@ -7440,7 +7435,7 @@
   },
   "Novità": {
     "where": [
-      "omega-ui-src/source/whatsnew.c:49"
+      "omega-ui-src/source/whatsnew.c:48"
     ]
   },
   "Nuova cartella": {
@@ -7456,11 +7451,6 @@
   "Nuova copertina": {
     "where": [
       "omega-ui-src/source/gallery.c:120"
-    ]
-  },
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": {
-    "where": [
-      "omega-ui-src/source/whatsnew.c:15"
     ]
   },
   "Nuovo PIN": {
@@ -7582,6 +7572,11 @@
   "Omega come Home?": {
     "where": [
       "omega-ui-src/source/hen.c:348"
+    ]
+  },
+  "Omega non ha alcun legame con Overdrive né con altri store di giochi pirata: non contiene, non elenca e non scarica giochi commerciali. Lo Store ha solo homebrew open source.": {
+    "where": [
+      "omega-ui-src/source/whatsnew.c:14"
     ]
   },
   "Omega non risponde": {
@@ -11341,7 +11336,7 @@
   "Versione %s": {
     "where": [
       "omega-ui-src/source/panels.c:1385",
-      "omega-ui-src/source/whatsnew.c:50"
+      "omega-ui-src/source/whatsnew.c:49"
     ],
     "hint": "printf format: keep exactly these specifiers in this order: s"
   },

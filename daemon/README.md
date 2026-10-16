@@ -88,7 +88,12 @@ token che si ottiene con il PIN mostrato nella UI (5 tentativi sbagliati
 bloccano l'abbinamento per un minuto). Dal telefono o dal PC si comanda la
 musica, si mandano file audio in `/data/Omega/Music` e si gestisce La mia
 libreria (`source/lib.c`, salvata in `/data/Omega/library.json`): giochi
-aggiunti a mano, importati da un JSON o sincronizzati da un link.
+aggiunti a mano, importati da un JSON o sincronizzati da un link. Il JSON
+accettato è solo quello di Omega: un array o `{"items":[...]}` di voci con
+`title` (o `name`), `url` (o `download`, `link`) e, se servono, `cover` (o
+`image`), `description`, `version`, `platform`, `title_id`, `type`, `size`,
+`screenshots` (o `images`). Le liste di cataloghi della scena
+(FPKGi e simili) non si leggono: la libreria è per i propri backup.
 
 Dalla stessa pagina si possono caricare i giochi direttamente sulla console: un
 file `.pkg`, `.zip` o `.elf`, oppure una cartella intera (anche trascinata dal

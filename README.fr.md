@@ -27,6 +27,10 @@ bouton, la musique continue pendant que vous jouez et vos amis sont toujours à
 portée de main. Il fonctionne comme un homebrew (SDL2, rendu logiciel) et
 communique avec un serveur que chacun peut héberger.
 
+## Pas de piratage
+
+Omega n'a aucun lien avec Overdrive ni avec ses forks et ne partage aucun code avec eux. Il ne contient, ne répertorie et ne télécharge aucun jeu commercial : le Store ne propose que des homebrews open source, et Ma bibliothèque sert à vos sauvegardes personnelles, sans lire les catalogues de jeux d'autrui. Les versions d'Omega modifiées pour distribuer des jeux ne sont pas les nôtres : signalez-les-nous.
+
 ## Fonctionnalités
 
 - **Home** réunissant jeux et homebrew, fonds dynamiques tirés des

@@ -628,7 +628,6 @@
   "Gioco aggiunto alla libreria": "游戏已添加到游戏库",
   "Gioco cancellato dal disco": "已从磁盘删除游戏",
   "Gli homebrew non hanno salvataggi di sistema": "自制软件没有系统存档",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "应用文件夹位于另一个文件夹内的应用 zip 现在可以正确安装，应用文件也会获得启动所需的权限。",
   "Grandi": "大",
   "Gratis, aperta e nella tua lingua": "免费、开源、支持中文",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "谢谢！消息已送达开发者",
@@ -878,6 +877,7 @@
   "La forma di schede, pulsanti e icone.": "卡片、按钮和图标的形状。",
   "La libreria è sulla console": "游戏库在主机上",
   "La mia libreria": "我的游戏库",
+  "La mia libreria è per i tuoi backup personali e ora legge solo il formato di Omega: le liste di cataloghi di altri programmi non si importano più.": "“我的游戏库”用于你自己的个人备份，现在只读取 Omega 的格式：其他程序的目录列表不再能导入。",
   "La musica generata della home, quando non ascolti altro.": "没在听其他内容时，主页自动生成的音乐。",
   "La pagina si aggiorna quando la riapri": "重新打开页面即可刷新",
   "La password deve avere almeno 8 caratteri": "密码至少需要 8 个字符",
@@ -1111,7 +1111,6 @@
   "Nuova cartella": "新建文件夹",
   "Nuova cartella...": "新建文件夹...",
   "Nuova copertina": "新封面",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "商店新增模拟器：Nintendo 64、PlayStation 1、PlayStation 2、PSP、超级任天堂、Xbox、Xbox 360（实验性）以及带 33 个核心和 EmulationStation 的 RetroArch。",
   "Nuovo PIN": "新 PIN",
   "Nuovo avatar": "新头像",
   "Nuovo gruppo": "新群组",
@@ -1131,6 +1130,7 @@
   "Omega blu": "Omega 蓝",
   "Omega come Home": "将 Omega 设为主页",
   "Omega come Home?": "将 Omega 设为主页？",
+  "Omega non ha alcun legame con Overdrive né con altri store di giochi pirata: non contiene, non elenca e non scarica giochi commerciali. Lo Store ha solo homebrew open source.": "Omega 与 Overdrive 或任何其他盗版游戏商店都没有关系：它不包含、不列出、也不下载商业游戏。商店里只有开源自制软件。",
   "Omega non risponde": "Omega 无响应",
   "Omega resta un'app: la apri tu da websrv quando vuoi": "Omega 保持为应用程序：需要时从 websrv 打开即可",
   "Omega sarà la tua Home: si apre all'avvio e quando torni alla Home": "Omega 将成为你的主页：开机时和返回主页时都会打开",
@@ -1830,6 +1830,5 @@
   "▲ ▼  Sposta": "▲ ▼  移动",
   "◀ ▶  Sposta": "◀ ▶  移动",
   "✕ ingrandisci": "✕ 放大",
-  "✕ preferito   □ silenzia": "✕ 特别关注   □ 静音",
-  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "游戏启动更可靠：当系统回应游戏已在运行时，Omega 不再关闭游戏后重新启动。这种重复启动可能导致主机崩溃（CE-108262-9）。"
+  "✕ preferito   □ silenzia": "✕ 特别关注   □ 静音"
 }

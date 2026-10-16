@@ -26,6 +26,10 @@ row, the Store installs with one button, music keeps playing while you game and
 your friends are always one press away. It runs as homebrew (SDL2, software
 renderer) and talks to a server that anyone can host.
 
+## No piracy
+
+Omega has no connection with Overdrive or its forks and shares no code with them. It does not contain, list or download commercial games: the Store only has open-source homebrew, and My library is for your own personal backups, without reading anyone else's game catalogues. Versions of Omega modified to distribute games are not ours: please report them to us.
+
 ## What's inside
 
 - **Home** with games and homebrew together, dynamic backgrounds from the

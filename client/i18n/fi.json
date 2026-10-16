@@ -628,7 +628,6 @@
   "Gioco aggiunto alla libreria": "Peli lisätty kirjastoon",
   "Gioco cancellato dal disco": "Peli poistettu levyltä",
   "Gli homebrew non hanno salvataggi di sistema": "Homebrew-sovelluksilla ei ole järjestelmätallennuksia",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "Sovellus-zipit, joissa sovelluksen kansio on toisen kansion sisällä, asentuvat nyt oikein, ja sovelluksen tiedostot saavat käynnistykseen tarvittavat oikeudet.",
   "Grandi": "Suuret",
   "Gratis, aperta e nella tua lingua": "Ilmainen, avoin ja suomeksi",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "Kiitos! Viesti tavoitti kehittäjän",
@@ -878,6 +877,7 @@
   "La forma di schede, pulsanti e icone.": "Korttien, painikkeiden ja kuvakkeiden muoto.",
   "La libreria è sulla console": "Kirjasto on konsolilla",
   "La mia libreria": "Oma kirjasto",
+  "La mia libreria è per i tuoi backup personali e ora legge solo il formato di Omega: le liste di cataloghi di altri programmi non si importano più.": "Oma kirjasto on omille henkilökohtaisille varmuuskopioillesi ja lukee nyt vain Omegan muotoa: muiden ohjelmien katalogilistoja ei voi enää tuoda.",
   "La musica generata della home, quando non ascolti altro.": "Aloitusnäytön generoitu musiikki, kun et kuuntele muuta.",
   "La pagina si aggiorna quando la riapri": "Sivu päivittyy, kun avaat sen uudelleen",
   "La password deve avere almeno 8 caratteri": "Salasanassa on oltava vähintään 8 merkkiä",
@@ -1111,7 +1111,6 @@
   "Nuova cartella": "Uusi kansio",
   "Nuova cartella...": "Uusi kansio...",
   "Nuova copertina": "Uusi kansikuva",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Uusia emulaattoreita Storessa: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (kokeellinen) sekä RetroArch, jossa on 33 corea ja EmulationStation.",
   "Nuovo PIN": "Uusi PIN",
   "Nuovo avatar": "Uusi avatar",
   "Nuovo gruppo": "Uusi ryhmä",
@@ -1131,6 +1130,7 @@
   "Omega blu": "Omega-sininen",
   "Omega come Home": "Omega aloitusnäyttönä",
   "Omega come Home?": "Omega aloitusnäytöksi?",
+  "Omega non ha alcun legame con Overdrive né con altri store di giochi pirata: non contiene, non elenca e non scarica giochi commerciali. Lo Store ha solo homebrew open source.": "Omegalla ei ole mitään yhteyttä Overdriveen tai muihin piraattipelikauppoihin: se ei sisällä, listaa eikä lataa kaupallisia pelejä. Kaupassa on vain avoimen lähdekoodin homebrew-ohjelmia.",
   "Omega non risponde": "Omega ei vastaa",
   "Omega resta un'app: la apri tu da websrv quando vuoi": "Omega pysyy sovelluksena: avaat sen websrv-sovelluksesta milloin haluat",
   "Omega sarà la tua Home: si apre all'avvio e quando torni alla Home": "Omegasta tulee aloitusnäyttösi: se avautuu käynnistettäessä ja kun palaat aloitusnäyttöön",
@@ -1830,6 +1830,5 @@
   "▲ ▼  Sposta": "▲ ▼  Siirrä",
   "◀ ▶  Sposta": "◀ ▶  Siirrä",
   "✕ ingrandisci": "✕ suurenna",
-  "✕ preferito   □ silenzia": "✕ suosikki   □ mykistä",
-  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "Luotettavampi pelien käynnistys: kun järjestelmä vastaa, että peli on jo käynnissä, Omega ei enää sulje sitä käynnistääkseen sen uudelleen. Tämä kaksoiskäynnistys saattoi kaataa konsolin (CE-108262-9)."
+  "✕ preferito   □ silenzia": "✕ suosikki   □ mykistä"
 }

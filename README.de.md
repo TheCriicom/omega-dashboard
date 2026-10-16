@@ -27,6 +27,10 @@ beim Spielen weiter, und deine Freunde sind immer nur einen Klick entfernt.
 Omega läuft als Homebrew (SDL2, Software-Renderer) und kommuniziert mit einem
 Server, den jeder selbst hosten kann.
 
+## Keine Piraterie
+
+Omega hat keinerlei Verbindung zu Overdrive oder dessen Forks und teilt keinen Code mit ihnen. Es enthält, listet und lädt keine kommerziellen Spiele: Der Store bietet nur Open-Source-Homebrew, und Meine Bibliothek ist für deine eigenen Sicherungskopien gedacht und liest keine fremden Spielekataloge. Versionen von Omega, die zum Verbreiten von Spielen verändert wurden, stammen nicht von uns: Bitte melde sie uns.
+
 ## Funktionen
 
 - **Home** mit Spielen und Homebrew zusammen, dynamischen Hintergründen aus dem

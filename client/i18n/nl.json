@@ -628,7 +628,6 @@
   "Gioco aggiunto alla libreria": "Game toegevoegd aan de bibliotheek",
   "Gioco cancellato dal disco": "Game gewist van de schijf",
   "Gli homebrew non hanno salvataggi di sistema": "Homebrew-apps hebben geen opgeslagen systeemdata",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "App-zips waarbij de app-map in een andere map zit, worden nu goed geïnstalleerd, en de bestanden van de app krijgen de rechten die ze nodig hebben om te starten.",
   "Grandi": "Groot",
   "Gratis, aperta e nella tua lingua": "Gratis, open en in jouw taal",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "Bedankt! Het bericht is bij de ontwikkelaar aangekomen",
@@ -878,6 +877,7 @@
   "La forma di schede, pulsanti e icone.": "De vorm van kaarten, knoppen en pictogrammen.",
   "La libreria è sulla console": "De bibliotheek staat op de console",
   "La mia libreria": "Mijn bibliotheek",
+  "La mia libreria è per i tuoi backup personali e ora legge solo il formato di Omega: le liste di cataloghi di altri programmi non si importano più.": "Mijn bibliotheek is voor je eigen persoonlijke back-ups en leest nu alleen het formaat van Omega: cataloguslijsten van andere programma's worden niet meer geïmporteerd.",
   "La musica generata della home, quando non ascolti altro.": "De gegenereerde muziek van Home, als je niets anders luistert.",
   "La pagina si aggiorna quando la riapri": "De pagina wordt vernieuwd als je hem opnieuw opent",
   "La password deve avere almeno 8 caratteri": "Het wachtwoord moet minstens 8 tekens hebben",
@@ -1111,7 +1111,6 @@
   "Nuova cartella": "Nieuwe map",
   "Nuova cartella...": "Nieuwe map...",
   "Nuova copertina": "Nieuwe omslag",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Nieuwe emulators in de Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (experimenteel) en RetroArch met 33 cores en EmulationStation.",
   "Nuovo PIN": "Nieuwe PIN",
   "Nuovo avatar": "Nieuwe avatar",
   "Nuovo gruppo": "Nieuwe groep",
@@ -1131,6 +1130,7 @@
   "Omega blu": "Omega-blauw",
   "Omega come Home": "Omega als Home",
   "Omega come Home?": "Omega als Home?",
+  "Omega non ha alcun legame con Overdrive né con altri store di giochi pirata: non contiene, non elenca e non scarica giochi commerciali. Lo Store ha solo homebrew open source.": "Omega heeft geen enkele band met Overdrive of andere piraterijwinkels voor games: het bevat, toont en downloadt geen commerciële games. De Store bevat alleen open-source homebrew.",
   "Omega non risponde": "Omega reageert niet",
   "Omega resta un'app: la apri tu da websrv quando vuoi": "Omega blijft een app: je opent het zelf via websrv wanneer je wilt",
   "Omega sarà la tua Home: si apre all'avvio e quando torni alla Home": "Omega wordt je Home: opent bij het opstarten en wanneer je teruggaat naar Home",
@@ -1830,6 +1830,5 @@
   "▲ ▼  Sposta": "▲ ▼  Verplaatsen",
   "◀ ▶  Sposta": "◀ ▶  Verplaatsen",
   "✕ ingrandisci": "✕ vergroten",
-  "✕ preferito   □ silenzia": "✕ favoriet   □ dempen",
-  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "Betrouwbaarder games starten: als het systeem meldt dat de game al draait, sluit Omega hem niet meer af om hem opnieuw te starten. Die dubbele start kon de console laten crashen (CE-108262-9)."
+  "✕ preferito   □ silenzia": "✕ favoriet   □ dempen"
 }

@@ -628,7 +628,6 @@
   "Gioco aggiunto alla libreria": "Jogo adicionado à biblioteca",
   "Gioco cancellato dal disco": "Jogo apagado do disco",
   "Gli homebrew non hanno salvataggi di sistema": "Os homebrews não têm jogos salvos do sistema",
-  "Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire.": "Zips de apps com a pasta dentro de outra pasta agora instalam direito, e os arquivos do app ficam com as permissões certas para abrir.",
   "Grandi": "Grandes",
   "Gratis, aperta e nella tua lingua": "Grátis, aberto e no seu idioma",
   "Grazie! Il messaggio è arrivato allo sviluppatore": "Obrigado! A mensagem chegou ao desenvolvedor",
@@ -878,6 +877,7 @@
   "La forma di schede, pulsanti e icone.": "O formato de cards, botões e ícones.",
   "La libreria è sulla console": "A biblioteca fica no console",
   "La mia libreria": "Minha biblioteca",
+  "La mia libreria è per i tuoi backup personali e ora legge solo il formato di Omega: le liste di cataloghi di altri programmi non si importano più.": "Minha biblioteca serve para os seus backups pessoais e agora só lê o formato do Omega: listas de catálogos de outros programas não são mais importadas.",
   "La musica generata della home, quando non ascolti altro.": "A música gerada da Home, quando você não está ouvindo outra coisa.",
   "La pagina si aggiorna quando la riapri": "A página é atualizada quando você a abre de novo",
   "La password deve avere almeno 8 caratteri": "A senha deve ter pelo menos 8 caracteres",
@@ -1111,7 +1111,6 @@
   "Nuova cartella": "Nova pasta",
   "Nuova cartella...": "Nova pasta...",
   "Nuova copertina": "Nova capa",
-  "Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation.": "Novos emuladores na Loja: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (experimental) e RetroArch com 33 cores e EmulationStation.",
   "Nuovo PIN": "Novo PIN",
   "Nuovo avatar": "Novo avatar",
   "Nuovo gruppo": "Novo grupo",
@@ -1131,6 +1130,7 @@
   "Omega blu": "Omega azul",
   "Omega come Home": "Omega como Home",
   "Omega come Home?": "Omega como Home?",
+  "Omega non ha alcun legame con Overdrive né con altri store di giochi pirata: non contiene, non elenca e non scarica giochi commerciali. Lo Store ha solo homebrew open source.": "O Omega não tem nenhuma ligação com o Overdrive nem com outras lojas de jogos piratas: não contém, não lista e não baixa jogos comerciais. A Loja tem apenas homebrew de código aberto.",
   "Omega non risponde": "O Omega não responde",
   "Omega resta un'app: la apri tu da websrv quando vuoi": "O Omega continua sendo um app: você o abre pelo websrv quando quiser",
   "Omega sarà la tua Home: si apre all'avvio e quando torni alla Home": "O Omega será sua Home: abre na inicialização e quando você volta à Home",
@@ -1830,6 +1830,5 @@
   "▲ ▼  Sposta": "▲ ▼  Mover",
   "◀ ▶  Sposta": "◀ ▶  Mover",
   "✕ ingrandisci": "✕ ampliar",
-  "✕ preferito   □ silenzia": "✕ favorito   □ silenciar",
-  "Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9).": "Abertura de jogos mais confiável: quando o sistema responde que o jogo já está em execução, o Omega não o fecha mais para abri-lo de novo. Essa abertura dupla podia travar o console (CE-108262-9)."
+  "✕ preferito   □ silenzia": "✕ favorito   □ silenciar"
 }

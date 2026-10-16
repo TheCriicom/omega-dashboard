@@ -26,6 +26,10 @@ homebrew są w jednym rzędzie, Store instaluje jednym przyciskiem, muzyka gra d
 gdy grasz, a znajomi są zawsze na wyciągnięcie ręki. Działa jako homebrew (SDL2,
 renderowanie programowe) i komunikuje się z serwerem, który może uruchomić każdy.
 
+## Żadnego piractwa
+
+Omega nie ma żadnego związku z Overdrive ani jego forkami i nie dzieli z nimi kodu. Nie zawiera, nie wyświetla i nie pobiera gier komercyjnych: w Sklepie są tylko homebrew o otwartym kodzie, a Moja biblioteka służy do twoich osobistych kopii zapasowych i nie czyta cudzych katalogów gier. Wersje Omegi zmodyfikowane do rozpowszechniania gier nie są nasze: zgłoś je nam.
+
 ## Co jest w środku
 
 - **Home** z grami i homebrew razem, dynamicznymi tłami z grafik i

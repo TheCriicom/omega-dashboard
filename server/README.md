@@ -20,8 +20,8 @@ Entertainment and does not use its accounts or its servers.
 On a Linux server with Docker and Docker Compose v2:
 
 ```sh
-git clone https://github.com/TheCriicom/omega-dashboard-ps5.git
-cd omega-dashboard-ps5/server
+git clone https://github.com/TheCriicom/omega-dashboard.git
+cd omega-dashboard/server
 ./scripts/install.sh
 ```
 

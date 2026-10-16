@@ -741,7 +741,7 @@
     var data;
     // il BOM dei file salvati su Windows fa fallire JSON.parse
     try { data = JSON.parse(String(txt).replace(/^\uFEFF/, '')); } catch (e) { $('ierr').textContent = L.badjson; $('iok').textContent = ''; return; }
-    // si manda il JSON così com'è (array, {"items"}, FPKGi {"DATA"}...): la console lo riconosce
+    // si manda il JSON così com'è (array o {"items"}): la console lo riconosce
     api('POST', '/v1/library/import', Array.isArray(data) ? { items: data } : data).then(imported).catch(function () {});
   }
   // dopo "Collega": si guarda la libreria finché la sincronizzazione non finisce

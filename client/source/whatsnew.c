@@ -11,9 +11,8 @@
 // Novità di questa versione: testi in italiano esatto dentro N_(), tradotti
 // quando si disegnano (i18n/*.json).
 static const char *const ITEMS[] = {
-  N_("Avvio dei giochi più affidabile: quando il sistema risponde che il gioco è già in esecuzione, Omega non lo chiude più per rilanciarlo. Quel doppio avvio poteva far crashare la console (CE-108262-9)."),
-  N_("Nuovi emulatori nello Store: Nintendo 64, PlayStation 1, PlayStation 2, PSP, Super Nintendo, Xbox, Xbox 360 (sperimentale) e RetroArch con 33 core ed EmulationStation."),
-  N_("Gli zip delle app con la cartella dentro un'altra cartella ora si installano bene, e i file dell'app hanno i permessi giusti per partire."),
+  N_("Omega non ha alcun legame con Overdrive né con altri store di giochi pirata: non contiene, non elenca e non scarica giochi commerciali. Lo Store ha solo homebrew open source."),
+  N_("La mia libreria è per i tuoi backup personali e ora legge solo il formato di Omega: le liste di cataloghi di altri programmi non si importano più."),
 };
 #define NITEMS (int)(sizeof ITEMS / sizeof *ITEMS)
 

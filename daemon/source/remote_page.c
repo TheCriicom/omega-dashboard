@@ -744,7 +744,7 @@ const char REMOTE_HTML[] =
   "    var data;\n"
   "    // il BOM dei file salvati su Windows fa fallire JSON.parse\n"
   "    try { data = JSON.parse(String(txt).replace(/^\\uFEFF/, '')); } catch (e) { $('ierr').textContent = L.badjson; $('iok').textContent = ''; return; }\n"
-  "    // si manda il JSON così com'è (array, {\"items\"}, FPKGi {\"DATA\"}...): la console lo riconosce\n"
+  "    // si manda il JSON così com'è (array o {\"items\"}): la console lo riconosce\n"
   "    api('POST', '/v1/library/import', Array.isArray(data) ? { items: data } : data).then(imported).catch(function () {});\n"
   "  }\n"
   "  // dopo \"Collega\": si guarda la libreria finché la sincronizzazione non finisce\n"

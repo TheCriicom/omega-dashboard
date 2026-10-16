@@ -27,6 +27,10 @@ terwijl je gamet en je vrienden zijn altijd binnen handbereik. Omega draait als
 homebrew (SDL2, software-renderer) en praat met een server die iedereen zelf kan
 hosten.
 
+## Geen piraterij
+
+Omega heeft geen enkele band met Overdrive of de forks ervan en deelt geen code met hen. Het bevat, toont en downloadt geen commerciële games: de Store bevat alleen open-source homebrew, en Mijn bibliotheek is voor je eigen persoonlijke back-ups, zonder gamecatalogi van anderen te lezen. Versies van Omega die zijn aangepast om games te verspreiden, zijn niet van ons: meld ze bij ons.
+
 ## Wat zit erin
 
 - **Home** met games en homebrew samen, dynamische achtergronden op basis van

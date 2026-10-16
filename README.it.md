@@ -26,6 +26,10 @@ nella stessa fila, lo Store installa con un tasto, la musica continua mentre
 giochi e gli amici sono sempre a portata di mano. Gira come homebrew (SDL2,
 renderer software) e parla con un server che chiunque può ospitare.
 
+## Niente pirateria
+
+Omega non ha alcun legame con Overdrive né con i suoi fork e non condivide codice con loro. Non contiene, non elenca e non scarica giochi commerciali: lo Store ha solo homebrew open source e La mia libreria serve per i tuoi backup personali, senza leggere cataloghi di giochi altrui. Le versioni di Omega modificate per distribuire giochi non sono nostre: segnalacele.
+
 ## Cosa c'è dentro
 
 - **Home** con giochi e homebrew insieme, sfondi dinamici dall'artwork, avvio
